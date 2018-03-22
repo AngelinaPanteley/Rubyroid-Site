@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="7px" height="7px" viewBox="0 0 7 7" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>68563948-A128-46BD-97DE-F8E8E7C64C12-416-0000F5A488D4FC29</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="7" height="7" rx="2"></rect>
+    </defs>
+    <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1-Home-[Opt-1]-[desktop]" transform="translate(-182.000000, -7138.000000)">
+            <g id="Dedicated-Dev-Center" transform="translate(159.000000, 6853.000000)">
+                <g id="item" transform="translate(0.000000, 190.000000)">
+                    <g id="bullets" transform="translate(23.000000, 95.000000)">
+                        <g id="bullet-green">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <use id="bullet" fill="#2E3841" xlink:href="#path-1"></use>
+                            <g id="🎨-color" mask="url(#mask-2)" fill="#17B131">
+                                <rect id="Rectangle-3" x="0" y="0" width="7" height="7"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

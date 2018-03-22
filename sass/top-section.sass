@@ -1,0 +1,26 @@
+.top-section
+  height: calc(100vh - 10rem)
+  background: $bg-color
+  display: flex
+  flex-direction: column
+  align-items: center
+  padding-bottom: 10rem
+
+  &__img
+    margin-top: .7rem
+    margin-bottom: 5rem
+    height: calc(100vh - 42rem)
+
+  &__title
+    color: $font-base-color
+    font-family: $font-title
+    font-size: 5.6rem
+    line-height: 5rem
+    text-align: center
+    margin: 0 0 5rem
+
+    &--accent
+      color: $font-subtitle-color
+
+  &__order-now-btn
+    +primary-btn(22rem, 6.4rem, 3rem, .9rem)

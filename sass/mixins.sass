@@ -1,0 +1,19 @@
+@mixin primary-btn($width, $height, $f-size, $b-radius)
+  width: $width
+  height: $height
+  line-height: $height
+  color: #fff
+  font-family: $font-title
+  font-size: $f-size
+  text-align: center
+  background: #39A25B
+  transition: all .2s
+  border: none
+  border-radius: $b-radius
+  outline: none
+  text-transform: uppercase
+  cursor: pointer
+
+  &:hover
+    background: #349353
+    transition: all .2s

@@ -1,0 +1,162 @@
+@import url(../css/reset.css);
+@import url(../css/normalize.css);
+@import url(../css/fonts.css);
+*,
+figure {
+  margin: 0;
+  padding: 0; }
+
+html,
+body {
+  height: 100%; }
+
+html {
+  font-size: 10px; }
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%; }
+
+.content {
+  flex: 1 0 auto; }
+
+.footer {
+  flex: 0 0 auto; }
+
+.center-container {
+  margin: 0 auto;
+  width: 1200px; }
+
+.section__title {
+  color: #2E3841;
+  font-family: "fjalla", sans-serif;
+  font-size: 50px;
+  line-height: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 2rem; }
+
+.section__subtitle {
+  color: #2172D0;
+  font-family: "roboto", sans-serif;
+  font-size: 26px;
+  line-height: 30px;
+  text-align: center; }
+
+.header {
+  height: 10rem;
+  background: #EFF4FA; }
+  .header__inner {
+    display: flex;
+    justify-content: space-between; }
+  .header__logo {
+    width: 17.8rem; }
+    .header__logo-link {
+      margin-top: 2.8rem;
+      display: inline-block; }
+  .header__navigation {
+    padding-top: 2.8rem; }
+    .header__navigation__list {
+      display: flex; }
+    .header__navigation__item {
+      margin-left: 3.4rem;
+      margin-top: 1rem;
+      color: #2E3841;
+      font-family: "fjalla", sans-serif;
+      font-size: 2rem;
+      line-height: 2.5rem;
+      text-transform: uppercase;
+      cursor: pointer;
+      transition: all 0.2s; }
+      .header__navigation__item:hover {
+        color: #349353;
+        transition: all 0.2s; }
+  .header__contact-us-btn {
+    width: 12rem;
+    height: 4.4rem;
+    line-height: 4.4rem;
+    color: #fff;
+    font-family: "fjalla", sans-serif;
+    font-size: 1.8rem;
+    text-align: center;
+    background: #39A25B;
+    transition: all 0.2s;
+    border: none;
+    border-radius: 0.6rem;
+    outline: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-left: 5rem; }
+    .header__contact-us-btn:hover {
+      background: #349353;
+      transition: all 0.2s; }
+
+.top-section {
+  height: calc(100vh - 10rem);
+  background: #EFF4FA;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 10rem; }
+  .top-section__img {
+    margin-top: 0.7rem;
+    margin-bottom: 5rem;
+    height: calc(100vh - 42rem); }
+  .top-section__title {
+    color: #2E3841;
+    font-family: "fjalla", sans-serif;
+    font-size: 5.6rem;
+    line-height: 5rem;
+    text-align: center;
+    margin: 0 0 5rem; }
+    .top-section__title--accent {
+      color: #2172D0; }
+  .top-section__order-now-btn {
+    width: 22rem;
+    height: 6.4rem;
+    line-height: 6.4rem;
+    color: #fff;
+    font-family: "fjalla", sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    background: #39A25B;
+    transition: all 0.2s;
+    border: none;
+    border-radius: 0.9rem;
+    outline: none;
+    text-transform: uppercase;
+    cursor: pointer; }
+    .top-section__order-now-btn:hover {
+      background: #349353;
+      transition: all 0.2s; }
+
+.services {
+  padding: 12rem 0 7rem; }
+  .services__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 8.5rem; }
+  .services__item {
+    width: 45%;
+    display: flex;
+    margin-bottom: 5.4rem; }
+    .services__item__title {
+      color: #2E3841;
+      font-family: "fjalla", sans-serif;
+      font-size: 3.6rem;
+      line-height: 3.6rem; }
+    .services__item__description {
+      color: #2E3841;
+      font-family: "roboto-reg", sans-serif;
+      font-size: 1.6rem;
+      font-weight: 300;
+      line-height: 2.4rem; }
+  .services__img {
+    width: 8rem;
+    margin-right: 3rem;
+    margin-top: -17px; }
+
+/*# sourceMappingURL=styles.css.map */
