@@ -1,0 +1,113 @@
+.studies
+  padding: 10rem 0 12rem
+
+  &__board
+    display: flex
+    flex-wrap: wrap
+    margin-top: 6rem
+    margin-bottom: 7.3rem
+
+  &__item
+    width: 39.3rem
+    height: 39.3rem
+    margin-right: 1rem
+    display: flex
+    flex-direction: column
+    justify-content: flex-end
+    padding: 4rem 3rem 3.3rem
+    margin-bottom: 1rem
+    cursor: pointer
+
+    &__title
+      color: #fff
+      font-family: $font-title
+      font-size: 3.2rem
+      line-height: 4rem
+      text-transform: uppercase
+
+    &--no-margin
+      @extend .studies__item
+      margin-right: 0
+
+    &--big
+      @extend .studies__item
+      width: 79.6rem
+      padding-left: 4.1rem
+
+      .studies__item__title
+        font-size: 4rem
+
+    &:nth-child(1)
+      background-image: url('../images/color.png')
+
+    &:nth-child(2)
+      background-image: url('../images/color.png')
+
+    &:nth-child(3)
+      background-image: url('../images/color.png')
+
+    &:nth-child(4)
+      background-image: url('../images/color.png')
+
+  &__portal
+    @extend .studies__item
+    background-image: url('../images/color.png')
+    justify-content: flex-start
+
+    &__title
+      color: #3986E0
+      font-family: $font-title
+      font-size: 3.2rem
+      line-height: 4rem
+      text-transform: uppercase
+
+    &__description
+      color: #fff
+      font-family: $font-roboto
+      font-size: 1.5rem
+      font-weight: 300
+      line-height: 2.2rem
+      margin: 20px 0 40px
+
+    &__tag-list
+      display: flex
+      flex-wrap: wrap
+      margin-bottom: 2.2rem
+
+    &__tag
+      opacity: 0.8
+      border-radius: 4px
+      background-color: #FFFFFF
+      background-color: #fff
+      color: #262E36
+      font-family: $font-roboto
+      font-size: 1.2rem
+      line-height: 1.4rem
+      display: inline-block
+      margin-right: .8rem
+      margin-bottom: .8rem
+      padding: .2rem .6rem
+
+    &__finance
+      display: flex
+      justify-content: space-between
+      color: #fff
+      font-family: $font-subtitle
+      font-size: 1.4rem
+      font-weight: 300
+      line-height: 1.6rem
+
+      &__icon
+        background-image: url('../images/pin.svg')
+        width: 17px
+        height: 15px
+        display: inline-block
+        background-size: contain
+        background-repeat: no-repeat
+        vertical-align: top
+
+  &__link-container
+    text-align: center
+
+  &__show-more-link
+    +primary-link(2.4rem)
