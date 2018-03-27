@@ -1,0 +1,106 @@
+.additional
+  padding: 10rem 0 14rem
+
+  .center-container
+    display: flex
+    justify-content: space-between
+
+  &__title
+    color: $font-base-color
+    font-family: $font-title
+    font-size: 3.8rem
+    line-height: 4.7rem
+    margin-bottom: 5.4rem
+    text-transform: uppercase
+
+  &__button
+    +primary-btn(16rem, 5rem, 2rem, .6rem)
+    margin-top: 5.8rem
+
+  &__blog
+    display: flex
+    flex-direction: column
+    width: 45%
+
+    &__post
+      display: flex
+      position: relative
+      margin-bottom: 3.7rem
+
+      &:after
+        content: ""
+        position: absolute
+        left: 0
+        bottom: -15px
+        height: 1px
+        width: 105%
+        background: #E2E5EA
+
+      &:last-of-type
+        margin-bottom: 1.2rem
+
+      &:last-of-type:after
+        display: none
+
+    &__description
+      max-width: calc(100% - 10.5rem)
+
+    &__title
+      color: $font-base-color
+      font-family: $font-title
+      font-size: 2.2rem
+      line-height: 3rem
+      cursor: pointer
+
+    &__author
+      color: #7B8AA0
+      font-family: $font-roboto
+      font-size: 1.5rem
+      font-weight: 300
+      line-height: 1.8rem
+      margin-top: .8rem
+
+    &__date
+      text-align: right
+      font-family: $font-title
+      margin-right: 3.5rem
+      width: 7rem
+
+    &__month
+      color: #7B8AA0
+      font-size: 2.4rem
+      line-height: 3rem
+
+    &__year
+      color: #CBD1DA
+      font-size: 2rem
+      line-height: 2.5rem
+
+  &__news
+    display: flex
+    flex-direction: column
+    width: 45%
+
+    &__link
+      height: 17rem
+      width: 100%
+      background-color: #2E3841
+      padding: 2.2rem 3.7rem 2.7rem 3.9rem
+      display: flex
+      flex-direction: column
+      justify-content: space-between
+      cursor: pointer
+      margin-bottom: 2px
+
+    &__title
+      color: #FFFFFF
+      font-family: $font-title
+      font-size: 2.4rem
+      line-height: 3.2rem
+
+    &__date
+      opacity: 0.8
+      color: #FFFFFF
+      font-family: $font-title
+      font-size: 1.4rem
+      line-height: 1.7rem

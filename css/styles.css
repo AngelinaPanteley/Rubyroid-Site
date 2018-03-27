@@ -359,4 +359,259 @@ html {
       font-family: "roboto-light", sans-serif;
       font-style: italic; }
 
+.support {
+  padding: 18rem 0 10.3rem;
+  background-image: url(../images/color.png); }
+  .support__htp {
+    display: flex;
+    padding: 6.6rem 8rem 7rem 6.5rem;
+    border-left: 15px solid #287BDD;
+    background: #fff;
+    margin-bottom: 8.1rem; }
+    .support__htp .section__title {
+      text-align: left;
+      margin-bottom: 3.4rem;
+      font-size: 6rem; }
+    .support__htp__description {
+      width: 72%;
+      color: #262E36;
+      font-family: "roboto-reg", sans-serif;
+      font-size: 1.6rem;
+      font-weight: 300;
+      line-height: 2.5rem; }
+    .support__htp__logo {
+      width: 20.5%;
+      margin-left: 7.5%;
+      margin-top: -34px; }
+  .support__row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+  .support__item {
+    width: 27.3rem;
+    height: 22.4rem;
+    margin-bottom: 3.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff; }
+    .support__item img {
+      transform: scale(0.8); }
+
+.partner {
+  padding: 12rem 0; }
+  .partner__list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6rem; }
+  .partner__item {
+    margin-left: 1rem;
+    width: 34.8rem; }
+    .partner__item__title {
+      width: 33rem;
+      height: 6rem;
+      line-height: 6rem;
+      background: #EDEFF2;
+      color: #2E3841;
+      font-family: "fjalla", sans-serif;
+      font-size: 3.4rem;
+      padding: 0 20px;
+      border-radius: 17px 0 0 17px;
+      position: relative; }
+      .partner__item__title__mark {
+        color: #17B131; }
+      .partner__item__title:after {
+        height: 6rem;
+        border: 3rem solid transparent;
+        border-right: 0;
+        border-left: 1.8rem solid #EDEFF2;
+        content: "";
+        position: absolute;
+        right: -1.8rem;
+        top: 0; }
+    .partner__item__sublist {
+      color: #2E3841;
+      font-family: "roboto-reg", sans-serif;
+      font-size: 1.6rem;
+      font-weight: 300;
+      line-height: 2.2rem;
+      padding: 2.8rem 2rem 0 2.3rem; }
+      .partner__item__sublist__item {
+        margin-bottom: 0.9rem;
+        position: relative;
+        padding-left: 2.6rem; }
+      .partner__item__sublist__mark {
+        background-image: url(../images/bullet-green.svg);
+        background-size: cover;
+        width: 7px;
+        height: 7px;
+        display: inline-block;
+        margin-right: 1.8rem;
+        vertical-align: middle;
+        position: absolute;
+        left: 0.1rem;
+        top: 0.9rem;
+        border-radius: 3px; }
+
+.team {
+  padding: 10rem 12rem;
+  background: #EFF4FA; }
+
+.additional {
+  padding: 10rem 0 14rem; }
+  .additional .center-container {
+    display: flex;
+    justify-content: space-between; }
+  .additional__title {
+    color: #2E3841;
+    font-family: "fjalla", sans-serif;
+    font-size: 3.8rem;
+    line-height: 4.7rem;
+    margin-bottom: 5.4rem;
+    text-transform: uppercase; }
+  .additional__button {
+    width: 16rem;
+    height: 5rem;
+    line-height: 5rem;
+    color: #fff;
+    font-family: "fjalla", sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    background: #39A25B;
+    transition: all 0.2s;
+    border: none;
+    border-radius: 0.6rem;
+    outline: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 5.8rem; }
+    .additional__button:hover {
+      background: #349353;
+      transition: all 0.2s; }
+  .additional__blog {
+    display: flex;
+    flex-direction: column;
+    width: 45%; }
+    .additional__blog__post {
+      display: flex;
+      position: relative;
+      margin-bottom: 3.7rem; }
+      .additional__blog__post:after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: -15px;
+        height: 1px;
+        width: 105%;
+        background: #E2E5EA; }
+      .additional__blog__post:last-of-type {
+        margin-bottom: 1.2rem; }
+      .additional__blog__post:last-of-type:after {
+        display: none; }
+    .additional__blog__description {
+      max-width: calc(100% - 10.5rem); }
+    .additional__blog__title {
+      color: #2E3841;
+      font-family: "fjalla", sans-serif;
+      font-size: 2.2rem;
+      line-height: 3rem;
+      cursor: pointer; }
+    .additional__blog__author {
+      color: #7B8AA0;
+      font-family: "roboto-reg", sans-serif;
+      font-size: 1.5rem;
+      font-weight: 300;
+      line-height: 1.8rem;
+      margin-top: 0.8rem; }
+    .additional__blog__date {
+      text-align: right;
+      font-family: "fjalla", sans-serif;
+      margin-right: 3.5rem;
+      width: 7rem; }
+    .additional__blog__month {
+      color: #7B8AA0;
+      font-size: 2.4rem;
+      line-height: 3rem; }
+    .additional__blog__year {
+      color: #CBD1DA;
+      font-size: 2rem;
+      line-height: 2.5rem; }
+  .additional__news {
+    display: flex;
+    flex-direction: column;
+    width: 45%; }
+    .additional__news__link {
+      height: 17rem;
+      width: 100%;
+      background-color: #2E3841;
+      padding: 2.2rem 3.7rem 2.7rem 3.9rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      cursor: pointer;
+      margin-bottom: 2px; }
+    .additional__news__title {
+      color: #FFFFFF;
+      font-family: "fjalla", sans-serif;
+      font-size: 2.4rem;
+      line-height: 3.2rem; }
+    .additional__news__date {
+      opacity: 0.8;
+      color: #FFFFFF;
+      font-family: "fjalla", sans-serif;
+      font-size: 1.4rem;
+      line-height: 1.7rem; }
+
+.appeal {
+  height: 20rem;
+  color: #9EC4F0;
+  font-family: "fjalla", sans-serif;
+  font-size: 4.6rem;
+  line-height: 20rem;
+  background: #39424B;
+  text-align: center; }
+
+.footer {
+  background: #262E36; }
+  .footer__social {
+    display: flex;
+    justify-content: space-between;
+    height: 15rem;
+    align-items: center; }
+    .footer__social__link {
+      opacity: 0.8;
+      cursor: pointer; }
+      .footer__social__link:hover {
+        opacity: 1; }
+  .footer__bottom {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5rem; }
+  .footer__navigation {
+    margin-top: 0.7rem; }
+    .footer__navigation__list {
+      display: flex; }
+    .footer__navigation__item {
+      margin-left: 3.5rem; }
+    .footer__navigation__link {
+      opacity: 0.8;
+      color: #6785A8;
+      font-family: "fjalla", sans-serif;
+      font-size: 2rem;
+      line-height: 2.5rem;
+      text-align: right;
+      text-transform: uppercase;
+      text-decoration: none; }
+      .footer__navigation__link:hover {
+        opacity: 1; }
+  .footer__copyright {
+    opacity: 0.5;
+    color: #A4C7F0;
+    font-family: "montserrat";
+    font-size: 1.3rem;
+    font-weight: 300;
+    line-height: 1.6rem;
+    text-align: left;
+    padding: 2.8rem 0 4.3rem; }
+
 /*# sourceMappingURL=styles.css.map */

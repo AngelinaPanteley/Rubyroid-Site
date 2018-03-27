@@ -1,0 +1,62 @@
+.partner
+  padding: 12rem 0
+
+  &__list
+    display: flex
+    justify-content: space-between
+    margin-top: 6rem
+
+  &__item
+    margin-left: 1rem
+    width: 34.8rem
+
+    &__title
+      width: 33rem
+      height: 6rem
+      line-height: 6rem
+      background: #EDEFF2
+      color: $font-base-color
+      font-family: $font-title
+      font-size: 3.4rem
+      padding: 0 20px
+      border-radius: 17px 0 0 17px
+      position: relative
+
+      &__mark
+        color: #17B131
+
+      &:after
+        height: 6rem
+        border: 3rem solid transparent
+        border-right: 0
+        border-left: 1.8rem solid #EDEFF2
+        content: ""
+        position: absolute
+        right: -1.8rem
+        top: 0
+
+    &__sublist
+      color: $font-base-color
+      font-family: $font-roboto
+      font-size: 1.6rem
+      font-weight: 300
+      line-height: 2.2rem
+      padding: 2.8rem 2rem 0 2.3rem
+
+      &__item
+        margin-bottom: .9rem
+        position: relative
+        padding-left: 2.6rem
+
+      &__mark
+        background-image: url(../images/bullet-green.svg)
+        background-size: cover
+        width: 7px
+        height: 7px
+        display: inline-block
+        margin-right: 1.8rem
+        vertical-align: middle
+        position: absolute
+        left: .1rem
+        top: .9rem
+        border-radius: 3px
