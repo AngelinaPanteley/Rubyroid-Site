@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="14px" viewBox="0 0 25 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
+    <title>40523A9E-6D70-4C39-B214-CAC82337686A-400-00002984D06F65E4</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <polygon id="path-1" points="16.9530534 0 15.6559945 1.225 20.8442299 6.125 0 6.125 0 7.875 20.8442299 7.875 15.6559945 12.775 16.9530534 14 24.3648181 7"></polygon>
+    </defs>
+    <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1-Home-:hover-[Opt-1]-[desktop]" transform="translate(-1249.000000, -8800.000000)">
+            <g id="Blog-&amp;-News" transform="translate(0.000000, 8300.000000)">
+                <g id="News" transform="translate(776.000000, 100.000000)">
+                    <g id="Elements-/-Home-/-News-/-News-item" transform="translate(0.000000, 272.000000)">
+                        <g id="Elements-/-Home-/-News-/-News-item-[hover]">
+                            <g id="right-arrow-forward" transform="translate(473.294118, 128.000000)">
+                                <mask id="mask-2" fill="white">
+                                    <use xlink:href="#path-1"></use>
+                                </mask>
+                                <use id="Shape" fill="#39A25B" fill-rule="nonzero" xlink:href="#path-1"></use>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="34px" viewBox="0 0 32 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>angular-js</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1-Home-[Opt-1]-[desktop]" transform="translate(-602.000000, -2245.000000)" fill-rule="nonzero">
+            <g id="Technologies" transform="translate(0.000000, 1704.000000)">
+                <g id="T1" transform="translate(140.000000, 303.793750)">
+                    <g id="descr" transform="translate(0.000000, 80.000000)">
+                        <g id="tech-logos" transform="translate(50.000000, 156.000000)">
+                            <g id="logos" transform="translate(0.966343, 0.000000)">
+                                <g id="angular-js" transform="translate(411.033657, 1.000000)">
+                                    <g id="g48">
+                                        <polygon id="polygon50" fill="#D4D7DC" points="2.61646328 26.5682147 16.0070847 33.9279661 29.4666667 26.4685198 31.9757514 5.65898305 15.9901808 0.168079096 0.106418079 5.7579096"></polygon>
+                                        <polygon id="polygon52" fill="#A6120D" points="15.9531073 32.1695706 28.0530734 25.4729153 30.3913898 6.86166102 15.9531073 1.938"></polygon>
+                                        <polygon id="polygon54" fill="#DD1B16" points="15.9529153 32.1695706 15.9529153 1.93742373 1.88882486 6.95040678 4.03966102 25.5618531"></polygon>
+                                        <path d="M19.9274576,18.0317175 L15.9531073,19.8901921 L11.7641921,19.8901921 L9.79507345,24.8153898 L6.13248588,24.8831977 L15.9531073,3.03579661 L19.9274576,18.0317175 Z M19.5432768,17.0960452 L15.9794237,10.0407571 L13.0561921,16.9746441 L15.9529153,16.9746441 L19.5432768,17.0960452 Z" id="path56" fill="#FFFFFF"></path>
+                                        <polygon id="polygon58" fill="#CBD1DA" points="19.2962486 16.9800226 15.9604068 16.9800226 15.9529153 19.885774 20.5655819 19.8901921 22.7214124 24.8839661 26.2259096 24.9488927 15.9529153 3.03579661 15.9792316 10.0407571"></polygon>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
