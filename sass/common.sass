@@ -10,6 +10,9 @@ body
 html
   font-size: 10px
 
+  +media-md
+    font-size: 8px
+
 .wrapper
   display: flex
   flex-direction: column
@@ -23,7 +26,10 @@ html
 
 .center-container
   margin: 0 auto
-  width: 120rem
+  width: 1200px
+
+  +media-md
+    width: calc(100% - 60px)
 
 .section__title
   color: $font-base-color

@@ -1,3 +1,31 @@
+@mixin media-width-between($min, $max)
+  @media (min-width: $min) and (max-width: $max)
+    @content
+
+@mixin media-width-above($min)
+  @media (min-width: $min)
+    @content
+
+@mixin media-width-below($max)
+  @media (max-width: $max)
+    @content
+
+@mixin media-sm //tablet portrait
+  @include media-width-below($tablet)
+    @content
+
+@mixin media-md //tablet landscape
+  @include media-width-below($desktop)
+    @content
+
+@mixin media-lg //desktop
+  @include media-width-above($desktop)
+    @content
+
+@mixin media-mob //all mobile devices
+  @include media-width-below($desktop)
+    @content
+
 @mixin primary-btn($width, $height, $f-size, $b-radius)
   width: $width
   height: $height

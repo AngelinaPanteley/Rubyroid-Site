@@ -1,65 +1,58 @@
 .technologies
-  padding: 10rem 0 5rem
+  padding: 10rem 0
   background: $bg-color
 
   &__list
-    padding: 7rem 2rem 0
+    padding: 7rem 0 0
     display: flex
     flex-wrap: wrap
     justify-content: space-between
 
   &__item
-    width: 54.5rem
+    width: 381px
+    height: 415px
+    width: 381px
+    border: 1px solid #EDEFF2
+    border-radius: 3px
+    background-color: #FFFFFF
     box-shadow: 0 1px 0 0 rgba(0,0,0,0.05)
-    border-radius: 4px 4px 8px 8px
-    margin-bottom: 7rem
+    padding: 44px 40px 55px
+    margin-bottom: 22px
+
+    &__icon
+      margin-bottom: 24px
 
     &__header
-      background: #5A9BE5
-      padding: 1.5rem 5rem
-      display: flex
-      justify-content: space-between
-      border-radius: 4px 4px 0 0
-
-    &__title
-      color: $font-base-color
-      font-family: $font-title
-      font-size: 3.8rem
-      line-height: 4.7rem
-      text-transform: uppercase
-
-    &__description
-      background-color: #fff
-      padding: 3rem 5rem
-      color: #262E36
-      font-family: $font-roboto
-      font-size: 1.5rem
-      font-weight: 300
-      line-height: 2.4rem
-      text-align: justify
-      border-radius: 0 0 8px 8px
-      height: 22.2rem
       display: flex
       flex-direction: column
-      justify-content: space-between
-
-    &__tools
-      display: flex
-      justify-content: space-between
       align-items: center
 
-      .m-t
-        margin-top: 1rem
+    &__title
+      color: #262E36
+      font-family: $font-title
+      font-size: 38px
+      line-height: 47px
+      text-align: center
+      margin-bottom: 13px
 
-      .m-b
-        margin-top: -1rem
+    &__description
+      color: #262E36
+      font-family: 'roboto-light'
+      font-size: 15px
+      line-height: 24px
 
-      &__icon
-        filter: grayscale(100%)
-        opacity: 0.7
-        transition: all 0.2s ease-in-out
+    &__tools
+      font-family: 'source_sans_proregular'
+      color: #8094B3
+      font-size: 14px
+      line-height: 24px
+      border-top: 1px solid #EDEFF2
+      padding-top: 17px
+      margin-top: 30px
 
-        &:hover
-          filter: none
-          opacity: 1
-          transition: all 0.2s ease-in-out
+      span
+        margin-right: 22px
+        white-space: nowrap
+
+        &.no-mrg
+          margin-right: 0

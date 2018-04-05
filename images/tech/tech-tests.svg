@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
+    <title>tech-tests</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.800000012">
+        <g id="1-Home-[Opt-1]-[desktop]" transform="translate(-1100.000000, -2477.000000)" fill="#3986E0" fill-rule="nonzero">
+            <g id="Technologies" transform="translate(0.000000, 1704.000000)">
+                <g id="T3" transform="translate(940.000000, 729.000000)">
+                    <g id="tech-tests" transform="translate(160.000000, 44.000000)">
+                        <path d="M55,0 L5,0 C2.243,0 0,2.243 0,5 L0,42 C0,44.757 2.243,47 5,47 L6,47 L6,59 C6,59.552 6.448,60 7,60 L59,60 C59.552,60 60,59.552 60,59 L60,5 C60,2.243 57.757,0 55,0 Z M6,45 L5,45 C3.346,45 2,43.654 2,42 L2,40 L6,40 L6,45 Z M58,58 L8,58 L8,40 L58,40 L58,58 Z M58,38 L2,38 L2,5 C2,3.346 3.346,2 5,2 L55,2 C56.654,2 58,3.346 58,5 L58,38 Z" id="Shape"></path>
+                        <rect id="Rectangle-path" x="6" y="5" width="2" height="31"></rect>
+                        <rect id="Rectangle-path" x="12" y="26" width="2" height="10"></rect>
+                        <rect id="Rectangle-path" x="10" y="5" width="4" height="2"></rect>
+                        <rect id="Rectangle-path" x="16" y="5" width="22" height="2"></rect>
+                        <rect id="Rectangle-path" x="40" y="5" width="4" height="2"></rect>
+                        <rect id="Rectangle-path" x="16" y="26" width="4" height="2"></rect>
+                        <rect id="Rectangle-path" x="22" y="26" width="22" height="2"></rect>
+                        <rect id="Rectangle-path" x="46" y="26" width="4" height="2"></rect>
+                        <rect id="Rectangle-path" x="16" y="33" width="4" height="2"></rect>
+                        <rect id="Rectangle-path" x="22" y="33" width="22" height="2"></rect>
+                        <rect id="Rectangle-path" x="46" y="33" width="4" height="2"></rect>
+                        <rect id="Rectangle-path" x="10" y="12" width="4" height="2"></rect>
+                        <rect id="Rectangle-path" x="16" y="12" width="33" height="2"></rect>
+                        <rect id="Rectangle-path" x="51" y="12" width="4" height="2"></rect>
+                        <rect id="Rectangle-path" x="10" y="19" width="4" height="2"></rect>
+                        <rect id="Rectangle-path" x="16" y="19" width="33" height="2"></rect>
+                        <rect id="Rectangle-path" x="51" y="19" width="4" height="2"></rect>
+                        <rect id="Rectangle-path" x="10" y="42" width="4" height="2"></rect>
+                        <rect id="Rectangle-path" x="16" y="42" width="4" height="2"></rect>
+                        <rect id="Rectangle-path" x="22" y="42" width="4" height="2"></rect>
+                        <rect id="Rectangle-path" x="28" y="42" width="4" height="2"></rect>
+                        <rect id="Rectangle-path" x="34" y="42" width="4" height="2"></rect>
+                        <rect id="Rectangle-path" x="40" y="42" width="4" height="2"></rect>
+                        <rect id="Rectangle-path" x="46" y="42" width="4" height="2"></rect>
+                        <rect id="Rectangle-path" x="52" y="42" width="4" height="2"></rect>
+                        <rect id="Rectangle-path" x="13" y="46" width="4" height="2"></rect>
+                        <rect id="Rectangle-path" x="19" y="46" width="4" height="2"></rect>
+                        <rect id="Rectangle-path" x="25" y="46" width="4" height="2"></rect>
+                        <rect id="Rectangle-path" x="31" y="46" width="4" height="2"></rect>
+                        <rect id="Rectangle-path" x="37" y="46" width="4" height="2"></rect>
+                        <rect id="Rectangle-path" x="43" y="46" width="4" height="2"></rect>
+                        <rect id="Rectangle-path" x="49" y="46" width="4" height="2"></rect>
+                        <rect id="Rectangle-path" x="10" y="50" width="4" height="2"></rect>
+                        <rect id="Rectangle-path" x="16" y="50" width="4" height="2"></rect>
+                        <rect id="Rectangle-path" x="22" y="50" width="4" height="2"></rect>
+                        <rect id="Rectangle-path" x="28" y="50" width="4" height="2"></rect>
+                        <rect id="Rectangle-path" x="34" y="50" width="4" height="2"></rect>
+                        <rect id="Rectangle-path" x="40" y="50" width="4" height="2"></rect>
+                        <rect id="Rectangle-path" x="46" y="50" width="4" height="2"></rect>
+                        <rect id="Rectangle-path" x="52" y="50" width="4" height="2"></rect>
+                        <rect id="Rectangle-path" x="13" y="54" width="4" height="2"></rect>
+                        <rect id="Rectangle-path" x="19" y="54" width="28" height="2"></rect>
+                        <rect id="Rectangle-path" x="49" y="54" width="4" height="2"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

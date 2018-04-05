@@ -1,0 +1,136 @@
+.awards
+  padding: 18rem 0 10.3rem
+  background-image: url(../images/color.png)
+
+  +media-md
+    padding: 120px 0 130px
+
+  &__htp
+    display: flex
+    padding: 97px 79px 79px 141px
+    background: #fff
+    margin-bottom: 8.1rem
+    justify-content: space-between
+    align-items: flex-start
+    position: relative
+
+    &:before
+      height: 50px
+      width: 50px
+      content: ""
+      display: inline-block
+      background-image: url(../images/awards/check-mark.svg)
+      background-repeat: no-repeat
+      background-size: contain
+      position: absolute
+      top: 94px
+      left: 63px
+
+    +media-md
+      padding: 74px 102px 71px 44px
+
+    +media-sm
+      padding: 66px 47px 74px 37px
+
+    .section__title
+      text-align: left
+      margin-bottom: 3.4rem
+      font-size: 6rem
+
+      +media-md
+        line-height: 50px
+
+      +media-sm
+        font-size: 42px
+        line-height: 40px
+
+    &__description
+      width: 71%
+      color: #262E36
+      font-family: $font-roboto
+      font-size: 1.6rem
+      font-weight: 300
+      line-height: 2.5rem
+
+      +media-md
+        font-size: 14px
+        line-height: 22px
+        width: 64%
+
+      +media-sm
+        width: 71%
+
+    &__logo
+      width: 21.5%
+
+      +media-md
+        width: 26%
+
+      +media-sm
+        width: 23%
+
+  &__row
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-between
+
+  &__item
+    width: 27.3rem
+    height: 22.4rem
+    margin-bottom: 3.7rem
+    display: flex
+    align-items: center
+    justify-content: center
+    background: #fff
+    transition: all 0.2s
+    position: relative
+
+    +media-md
+      width: calc((100% - 30px)/4)
+      margin-bottom: 10px
+      height: 200px
+
+    +media-sm
+      height: 150px
+
+    &:hover
+      transition: all 0.2s
+
+      .awards__award-icon
+        opacity: 0
+        transition: all .2s ease-in-out
+
+        &.colored
+          //@extend .animated
+          //@extend .flipInY
+          opacity: 1
+          transition: all .2s ease-in-out
+          transform: scale(1.2) translate(-42.5%, -42.5%)
+
+
+    .awards__award-icon
+      transition: all .2s ease-in-out
+      position: absolute
+      top: 50%
+      left: 50%
+      transform: translate(-50%, -50%)
+
+      &.colored
+        opacity: 0
+        transition: all .2s ease-in-out
+
+      &.clutch,
+      &.topagency,
+      &.good-firms,
+      &.extract
+        height: 120px
+
+      &.brug,
+      &.wadline
+        height: 100px
+
+      &.europages
+        height: 49px
+
+      &.skilled
+        height: 81px

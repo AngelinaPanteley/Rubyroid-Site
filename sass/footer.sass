@@ -2,10 +2,14 @@
   background: #262E36
 
   &__social
-    display: flex
-    justify-content: space-between
     height: 15rem
-    align-items: center
+    border-bottom: 1px solid #1E242A
+
+    .center-container
+      height: 100%
+      display: flex
+      justify-content: space-between
+      align-items: center
 
     &__link
       opacity: 0.5
@@ -14,30 +18,52 @@
       &:hover
         opacity: 1
 
+      img
+        +media-md
+          transform: scale(0.8)
+
   &__bottom
-    display: flex
-    justify-content: space-between
-    padding-top: 5rem
+    padding-top: 50px
+
+    +media-sm
+      padding-top: 39px
+
+    .center-container
+      display: flex
+      justify-content: space-between
 
   &__navigation
-    margin-top: .7rem
+    margin-top: 7px
+
+    +media-md
+      margin-top: 4px
+      margin-right: 28px
+
+    +media-sm
+      display: none
 
     &__list
       display: flex
 
     &__item
-      margin-left: 3.5rem
+      margin-left: 35px
+
+      +media-md
+        margin-left: 31px
 
     &__link
       opacity: 0.8
       color: #6785A8
       font-family: $font-title
-      font-size: 2rem
-      line-height: 2.5rem
+      font-size: 20px
+      line-height: 25px
       text-align: right
       text-transform: uppercase
       text-decoration: none
       transition: all .2s ease-in-out
+
+      +media-md
+        font-size: 18px
 
       &:hover
         opacity: 1
@@ -47,9 +73,17 @@
   &__copyright
     opacity: 0.5
     color: #A4C7F0
-    font-family: 'montserrat'
-    font-size: 1.3rem
+    font-family: 'montserratlight'
+    font-size: 13px
     font-weight: 300
-    line-height: 1.6rem
+    line-height: 16px
     text-align: left
-    padding: 2.8rem 0 4.3rem
+    padding: 28px 0 43px
+
+    +media-md
+      padding: 21px 0 30px
+
+  &__logo
+    &__img
+      +media-md
+        width: 178px

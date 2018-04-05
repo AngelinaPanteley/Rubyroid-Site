@@ -1,0 +1,111 @@
+.additional
+  padding: 10rem 0 14rem
+
+  .center-container
+    display: flex
+    justify-content: space-between
+
+  &__title
+    color: $font-base-color
+    font-family: $font-title
+    font-size: 38px
+    line-height: 47px
+    margin-bottom: 54px
+    text-transform: uppercase
+
+    +media-md
+      margin-bottom: 40px
+
+  &__button
+    +primary-btn(160px, 50px, 20px, 6px)
+    margin-top: 58px
+
+  &__blog
+    display: flex
+    flex-direction: column
+    width: 45%
+
+    +media-md
+      width: 47%
+
+    &__post
+      display: flex
+      position: relative
+      margin-bottom: 49px
+
+      &:after
+        content: ""
+        position: absolute
+        left: 0
+        bottom: -15px
+        height: 1px
+        width: 105%
+        background: #E2E5EA
+
+      &:last-of-type
+        margin-bottom: -9px
+
+      &:last-of-type:after
+        display: none
+
+    &__description
+      max-width: calc(100% - 105px)
+
+      +media-md
+        max-width: calc(100% - 67px)
+
+    &__title
+      color: $font-base-color
+      font-family: $font-title
+      font-size: 22px
+      line-height: 30px
+      cursor: pointer
+      transition: all .2s
+
+      &:hover
+        color: #39A25B
+        transition: all .2s
+
+      +media-md
+        font-size: 20px
+        line-height: 27px
+
+    &__author
+      color: #7B8AA0
+      font-family: $font-roboto
+      font-size: 15px
+      font-weight: 300
+      line-height: 18px
+      margin-top: 8px
+
+      +media-md
+        font-size: 13px
+        line-height: 15px
+
+    &__date
+      text-align: right
+      font-family: $font-title
+      margin-right: 35px
+      width: 70px
+
+      +media-md
+        margin-right: 13px
+        width: 55px
+
+    &__month
+      color: #7B8AA0
+      font-size: 24px
+      line-height: 30px
+
+      +media-md
+        font-size: 18px
+        line-height: 22px
+
+    &__year
+      color: #CBD1DA
+      font-size: 20px
+      line-height: 25px
+
+      +media-md
+        font-size: 16px
+        line-height: 20px
