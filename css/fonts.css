@@ -13,14 +13,9 @@
 
 @font-face {
   font-family: 'roboto-cond';
-  src: url('../fonts/robotocondensed-regular-webfont.eot');
-  src: url('../fonts/robotocondensed-regular-webfont.eot?#iefix') format('embedded-opentype'),
-       url('../fonts/robotocondensed-regular-webfont.woff2') format('woff2'),
-       url('../fonts/robotocondensed-regular-webfont.woff') format('woff'),
-       url('../fonts/robotocondensed-regular-webfont.svg#roboto_condensedregular') format('svg');
+  src: url('../fonts/RobotoCondensed-Regular.ttf');
   font-weight: normal;
   font-style: normal;
-
 }
 
 @font-face {
@@ -58,11 +53,7 @@
 
 @font-face {
   font-family: 'roboto-cond-light';
-  src: url('../fonts/roboto-condensed-light-webfont.eot');
-  src: url('../fonts/roboto-condensed-light-webfont.eot?#iefix') format('embedded-opentype'),
-       url('../fonts/roboto-condensed-light-webfont.woff2') format('woff2'),
-       url('../fonts/roboto-condensed-light-webfont.woff') format('woff'),
-       url('../fonts/roboto-condensed-light-webfont.svg#roboto_condensedlight') format('svg');
+  src: url('../fonts/RobotoCondensed-Light.ttf');
   font-weight: normal;
   font-style: normal;
 }

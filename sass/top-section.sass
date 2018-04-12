@@ -16,6 +16,10 @@
   &__img
     margin-top: .7rem
     height: calc(100vh - 42rem)
+    @extend .animated
+    -webkit-transform-origin: center bottom
+    transform-origin: center bottom
+    animation: train 2.5s ease-in
 
     +media-md
       max-width: 98%
