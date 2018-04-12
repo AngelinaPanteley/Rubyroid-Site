@@ -1,27 +1,13 @@
 .studies
-  &__portal
-    @extend .studies__item
-    background-image: url('../images/1.jpg')
-    justify-content: flex-start
-    transition: all 0.4s ease-in-out
-    max-height: 39.3rem
-    overflow: hidden
-
-    &__hiding-container
+  &__item
+    &__hidden-container
       transform: translate(0, 24.3rem)
       transition: all 0.8s ease-in-out
-
-    &__title
-      color: #fff
-      font-family: $font-title
-      font-size: 3.2rem
-      line-height: 4rem
-      text-transform: uppercase
-      transition: all 0.4s ease-in-out
+      min-height: 322px
 
     &__description
       color: #fff
-      font-family: $font-roboto
+      font-family: 'roboto-light'
       font-size: 1.5rem
       font-weight: 300
       line-height: 2.2rem
@@ -55,6 +41,10 @@
       font-weight: 300
       line-height: 1.6rem
 
+      span:first-child
+        font-size: 1.5rem
+        font-family: 'roboto-light'
+
       &__icon
         background-image: url('../images/pin.svg')
         width: 17px
@@ -69,11 +59,11 @@
         opacity: 0.9
         transition: all 0.4s ease-in-out
 
-      .studies__portal__hiding-container
+      .studies__item__hidden-container
         transform: translate(0, 0)
         transition: all 0.8s ease-in-out
 
-      .studies__portal__title
+      .studies__item__title
         color: #3986E0
         transition: all 0.4s ease-in-out
 
