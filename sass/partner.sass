@@ -1,10 +1,14 @@
 .partner
-  padding: 120px 0
+  padding: 110px 0 133px
 
   +media-md
     background-image: url('../images/gaol-image.png')
     background-repeat: no-repeat
     background-position: right bottom
+
+  +media-xs
+    padding: 50px 0 90px
+    background-image: none
 
   &__list
     display: flex
@@ -15,6 +19,10 @@
     +media-md
       justify-content: flex-start
       padding: 0 9%
+
+    +media-xs
+      padding: 0 0 0 15px
+      margin-top: 40px
 
   &__item
     margin-left: 1rem
@@ -28,6 +36,12 @@
 
       &:nth-child(2n)
         margin-right: 0
+
+        +media-xs
+          margin-right: 2%
+
+    +media-xs
+      width: 96%
 
     &__title
       width: 330px
@@ -45,6 +59,13 @@
         font-size: 30px
         width: 90%
 
+      +media-xs
+        width: 99%
+        height: 50px
+        border-radius: 9px 0 0 9px
+        font-size: 24px
+        line-height: 50px
+
       &__mark
         color: #17B131
 
@@ -57,6 +78,13 @@
         position: absolute
         right: -18px
         top: 0
+
+        +media-xs
+          height: 50px
+          border: 25px solid transparent
+          border-right: 0
+          border-left: 20px solid #EDEFF2
+          right: -20px
 
     &__sublist
       color: $font-base-color
@@ -87,4 +115,4 @@
         position: absolute
         left: 1px
         top: 9px
-        border-radius: 3px
+        border-radius: 2px

@@ -7,6 +7,9 @@
   +media-sm
     padding-top: 50px
 
+  +media-xs
+    padding-bottom: 36px
+
   &__list
     display: flex
     flex-direction: row
@@ -20,6 +23,11 @@
 
     +media-sm
       margin-top: 32px
+      flex-direction: column
+      align-items: center
+
+    +media-xs
+      margin-top: 44px
 
   &__item
     width: 45%
@@ -36,6 +44,10 @@
       width: 465px
       margin-bottom: 25px
 
+    +media-xs
+      width: 100%
+      padding-left: 56px
+
     &__title
       color: $font-base-color
       font-family: $font-title
@@ -43,15 +55,21 @@
       line-height: 3.6rem
       margin-bottom: 1rem
 
+      +media-xs
+        margin-bottom: 2px
+
     &__description
       color: $font-base-color
-      font-family: $font-roboto
+      font-family: 'roboto-light'
       font-size: 16px
       font-weight: 300
       line-height: 24px
 
       +media-md
         font-size: 15px
+
+      +media-xs
+        line-height: 21px
 
     &__img
       width: 8rem
@@ -63,6 +81,9 @@
 
       +media-md
         width: 50px
+
+      +media-xs
+        width: 40px
 
     &:hover .services__item__img
       opacity: 1

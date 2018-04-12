@@ -2,8 +2,15 @@
   background-color: $bg-color
   padding: 10rem 0 12rem
 
+  +media-xs
+    padding: 50px 0 60px
+
   &__slider
     margin-top: 8rem
+    box-shadow: 0 0 4px 0 rgba(0,0,0,0.06)
+
+    +media-xs
+      margin-top: 40px
 
     &__inner
       width: 105.8rem
@@ -33,10 +40,22 @@
       margin: 0 auto
       padding: 38px 41px 47px
 
+    +media-xs
+      padding: 26px 20px 20px
+      height: auto
+
     &__photo
       position: absolute
       bottom: 0
       left: 0
+
+      +media-xs
+        width: 66px
+        height: 66px
+        background-color: #f3f3f5
+        border-radius: 50%
+        bottom: 20px
+        left: 25px
 
     &__content
       width: 30.9rem
@@ -52,6 +71,16 @@
 
       +media-md
         width: 417px
+
+      +media-xs
+        text-align: left
+        width: 100%
+        height: auto
+        margin: 0
+        margin-bottom: 30px
+        padding: 9px 5px 0
+        background-size: 24px
+        background-position: 0 0, 100% 77%
 
     &__name
       color: $font-base-color

@@ -25,6 +25,10 @@
     line-height: 50px
     margin-bottom: 38px
 
+    +media-xs
+      text-align: center
+      font-size: 38px
+
   &__country
     font-size: 3rem
     line-height: 3.5rem
@@ -45,6 +49,9 @@
     +media-md
       width: 219px
 
+    +media-xs
+      width: 100%
+
     &--mobile
       @extend .contact-us__description
       display: none
@@ -59,6 +66,10 @@
         .center-container
           display: flex
           flex-direction: row
+
+      +media-xs
+        padding: 34px 0 27px
+        margin-top: 46px
 
       &__block
         @extend .contact-us__description__block
@@ -77,6 +88,9 @@
     &__row
       display: flex
       justify-content: space-between
+
+      +media-xs
+        flex-wrap: wrap
 
   &__submit-btn
     height: 64px
@@ -97,6 +111,13 @@
     +media-md
       font-size: 24px
 
+    +media-xs
+      height: 50px
+      width: 173px
+      border-radius: 7px
+      font-size: 23px
+      line-height: 50px
+
     &:hover
       background-color: #287CDD
       transition: all .2s ease-in-out
@@ -116,6 +137,12 @@
       text-align: center
       cursor: pointer
       transition: all .2s ease-in-out
+
+      +media-xs
+        height: 40px
+        width: 110px
+        font-size: 16px
+        line-height: 40px
 
       &:hover
         background-color: #8DBAED

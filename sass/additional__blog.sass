@@ -5,6 +5,9 @@
     display: flex
     justify-content: space-between
 
+    +media-xs
+      flex-direction: column
+
   &__title
     color: $font-base-color
     font-family: $font-title
@@ -16,9 +19,22 @@
     +media-md
       margin-bottom: 40px
 
+    +media-xs
+      text-align: center
+
   &__button
     +primary-btn(160px, 50px, 20px, 6px)
     margin-top: 58px
+
+    +media-xs
+      display: none
+
+    &--mobile
+      @extend .additional__button
+      display: none
+
+      +media-xs
+        display: block
 
   &__blog
     display: flex
@@ -27,6 +43,11 @@
 
     +media-md
       width: 47%
+
+    +media-xs
+      width: 100%
+      align-items: center
+      padding-bottom: 58px
 
     &__post
       display: flex
@@ -41,6 +62,9 @@
         height: 1px
         width: 105%
         background: #E2E5EA
+
+        +media-xs
+          width: 100%
 
       &:last-of-type
         margin-bottom: -9px
@@ -72,7 +96,7 @@
 
     &__author
       color: #7B8AA0
-      font-family: $font-roboto
+      font-family: 'roboto-light'
       font-size: 15px
       font-weight: 300
       line-height: 18px

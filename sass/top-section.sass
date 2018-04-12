@@ -10,9 +10,15 @@
   +media-md
     padding-bottom: 71px
 
+  +media-xs
+    padding-bottom: 50px
+
   &__img
     margin-top: .7rem
     height: calc(100vh - 42rem)
+
+    +media-md
+      max-width: 98%
 
   &__title
     color: $font-base-color
@@ -22,8 +28,16 @@
     text-align: center
     margin: 0
 
+    +media-xs
+      font-size: 32px
+      line-height: 42px
+      max-width: 240px
+
     &--accent
       color: $font-subtitle-color
 
   &__order-now-btn
     +primary-btn(220px, 64px, 30px, 9px)
+
+    +media-xs
+      +primary-btn(180px, 50px, 24px, 7px)

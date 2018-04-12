@@ -3,9 +3,30 @@
 <head>
   <title></title>
   <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
+  <div class="fade">
+    <div class="mobile-navigation-wrapper">
+      <a href="" class="mobile-navigation__close-link">
+        <img src="images/close.svg" />
+      </a>
+      <nav class="mobile-navigation">
+        <ul class="mobile-navigation__list">
+          <li class="mobile-navigation__item"><a>Our work</a></li>
+          <li class="mobile-navigation__item"><a>Services</a></li>
+          <li class="mobile-navigation__item"><a>Clients</a></li>
+          <li class="mobile-navigation__item"><a>Team</a></li>
+          <li class="mobile-navigation__item"><a>Blog</a></li>
+          <li class="mobile-navigation__button">
+            <button class="mobile-navigation__contact-us-btn">Contact us</button>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
   <div class="wrapper">
     <div class="content">
       <header class="header">
@@ -23,6 +44,9 @@
               </li>
             </ul>
           </nav>
+          <a class="header__navigation--mobile">
+            <img src="images/hamburger.svg" />
+          </a>
         </div>
       </header>
       <section class="top-section">
@@ -68,9 +92,9 @@
             </div>
           </div>
           <div class="services__item">
-            <img src="images/services-awards.svg" class="services__item__img"/>
+            <img src="images/services-support.svg" class="services__item__img"/>
             <div class="services__item__description">
-              <h3 class="services__item__title">Maintenance and awards</h3>
+              <h3 class="services__item__title">Maintenance and Support</h3>
               <p>Make sure your product works smoothly and reliably</p>
             </div>
           </div>
@@ -457,6 +481,7 @@
                 <p class="additional__blog__author">Vera Rabkina</p>
               </div>
             </div>
+            <button class="additional__button--mobile">Go to Blog</button>
           </div>
           <div class="additional__news">
             <h2 class="additional__title">Recent News</h2>
@@ -468,9 +493,10 @@
               <p class="additional__news__title">Development outsourcing can be a key to solving many problems</p>
               <p class="additional__news__date">04 Apr 2017</p>
             </a>
+            <button class="additional__button--mobile">All News</button>
           </div>
         </div>
-        <div class="center-container">
+        <div class="center-container hide-in-mobile">
           <div class="additional__blog">
             <button class="additional__button">Go to Blog</button>
           </div>

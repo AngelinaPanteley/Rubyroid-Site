@@ -13,6 +13,9 @@ html
   +media-md
     font-size: 8px
 
+  +media-xs
+    font-size: 6.5px
+
 .wrapper
   display: flex
   flex-direction: column
@@ -31,6 +34,9 @@ html
   +media-md
     width: calc(100% - 60px)
 
+  +media-xs
+    width: calc(100% - 30px)
+
 .section__title
   color: $font-base-color
   font-family: $font-title
@@ -40,6 +46,9 @@ html
   text-transform: uppercase
   margin-bottom: 2rem
 
+  +media-xs
+    margin-bottom: 10px
+
 .section__subtitle
   color: $font-subtitle-color
   font-family: $font-subtitle
@@ -48,3 +57,12 @@ html
   text-align: center
   max-width: 72rem
   margin: 0 auto
+
+  +media-xs
+    font-size: 19px
+    line-height: 25px
+
+
+.hide-in-mobile
+  +media-xs
+    display: none !important
