@@ -8,13 +8,13 @@
  *
  * Copyright (c) 2018 Daniel Eden
  */
-.animated, .top-section__img {
+.animated, .top-section__animate {
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both; }
 
-.animated.infinite, .infinite.top-section__img {
+.animated.infinite, .infinite.top-section__animate {
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite; }
 
@@ -696,7 +696,8 @@ to {
     transform: translate3d(0, -5px, 0); }
   to {
     -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0); } }
+    transform: translate3d(0, 0, 0);
+    opacity: 1; } }
 @keyframes bounceInUp {
   from,
 60%,
@@ -721,7 +722,8 @@ to {
     transform: translate3d(0, -5px, 0); }
   to {
     -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0); } }
+    transform: translate3d(0, 0, 0);
+    opacity: 1; } }
 .bounceInUp {
   -webkit-animation-name: bounceInUp;
   animation-name: bounceInUp; }
@@ -1262,7 +1264,7 @@ to {
     transform: perspective(400px);
     -webkit-animation-timing-function: ease-in;
     animation-timing-function: ease-in; } }
-.animated.flip, .flip.top-section__img {
+.animated.flip, .flip.top-section__animate {
   -webkit-backface-visibility: visible;
   backface-visibility: visible;
   -webkit-animation-name: flip;
@@ -2377,6 +2379,36 @@ to {
   90% {
     -webkit-transform: translate3d(0, -4px, 0);
     transform: translate3d(0, -4px, 0); } }
+@keyframes bounceTrain {
+  from,
+10% {
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    animation-duration: 1s; }
+  75%,
+90%,
+to {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1); }
+  from,
+10% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    min-height: 100%; }
+  50% {
+    -webkit-transform: translate3d(0, -30px, 0);
+    transform: translate3d(0, -30px, 0);
+    min-height: calc(100vh - 42rem); }
+  75% {
+    -webkit-transform: translate3d(0, 20px, 0);
+    transform: translate3d(0, 20px, 0); }
+  90% {
+    -webkit-transform: translate3d(0, -10px, 0);
+    transform: translate3d(0, -10px, 0); }
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    min-height: calc(100vh - 42rem); } }
 *,
 figure {
   margin: 0;
@@ -2551,13 +2583,25 @@ html {
       padding-bottom: 50px; } }
   .top-section__img {
     margin-top: 0.7rem;
-    height: calc(100vh - 42rem);
-    -webkit-transform-origin: center bottom;
-    transform-origin: center bottom;
-    animation: train 2.5s ease-in; }
+    min-height: 100%;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    animation: bounceTrain 1s;
+    animation-delay: 0.7s;
+    animation-fill-mode: forwards; }
     @media (max-width: 1267px) {
       .top-section__img {
         max-width: 98%; } }
+  .top-section__animate {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0;
+    animation: bounceInUp 1s linear 1s;
+    animation-fill-mode: forwards;
+    flex-grow: 1;
+    justify-content: space-around;
+    margin-top: 15px; }
   .top-section__title {
     color: #2E3841;
     font-family: "fjalla", sans-serif;
