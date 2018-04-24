@@ -8,13 +8,15 @@
  *
  * Copyright (c) 2018 Daniel Eden
  */
-.animated, .top-section__animate {
+.animated, .top-section__animate, .team__grid__item:hover .team__grid__item__name,
+.team__grid__item:hover .team__grid__item__position {
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both; }
 
-.animated.infinite, .infinite.top-section__animate {
+.animated.infinite, .infinite.top-section__animate, .team__grid__item:hover .infinite.team__grid__item__name,
+.team__grid__item:hover .infinite.team__grid__item__position {
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite; }
 
@@ -874,7 +876,8 @@ to {
     opacity: 0; }
   to {
     opacity: 1; } }
-.fadeIn {
+.fadeIn, .team__grid__item:hover .team__grid__item__name,
+.team__grid__item:hover .team__grid__item__position {
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn; }
 
@@ -1264,7 +1267,8 @@ to {
     transform: perspective(400px);
     -webkit-animation-timing-function: ease-in;
     animation-timing-function: ease-in; } }
-.animated.flip, .flip.top-section__animate {
+.animated.flip, .flip.top-section__animate, .team__grid__item:hover .flip.team__grid__item__name,
+.team__grid__item:hover .flip.team__grid__item__position {
   -webkit-backface-visibility: visible;
   backface-visibility: visible;
   -webkit-animation-name: flip;
@@ -3409,18 +3413,21 @@ html {
       width: 100%;
       height: 260px;
       margin-bottom: 40px;
-      overflow: hidden;
-      transition: all 0.3s;
-      flex-shrink: 0; }
+      transition: all 0.5s;
+      flex-shrink: 0;
+      overflow: hidden; }
       .team__grid__item:hover {
         height: 328px;
-        transition: all 0.3s; }
+        transition: all 0.5s; }
         .team__grid__item:hover .team__grid__item__hover-img {
-          transition: all 0.3s;
-          z-index: 2; }
+          transition: all 0.4s;
+          opacity: 1; }
         .team__grid__item:hover + .team__grid__item {
           height: 192px;
-          transition: all 0.3s; }
+          transition: all 0.5s; }
+        .team__grid__item:hover .team__grid__item__name,
+        .team__grid__item:hover .team__grid__item__position {
+          animation-delay: 0.1s; }
       .team__grid__item__img {
         position: relative;
         width: 100%;
@@ -3435,22 +3442,24 @@ html {
           left: 0;
           z-index: 1; }
         .team__grid__item__img .team__grid__item__hover-img {
-          z-index: 0; }
-      .team__grid__item__hover-img {
-        transition: all 0.3s; }
+          z-index: 2;
+          opacity: 0;
+          transition: all 0.4s; }
       .team__grid__item__name {
         color: #2E3841;
         font-family: "fjalla", sans-serif;
         font-size: 16px;
         line-height: 20px;
         text-align: center;
-        margin: 16px 0 2px; }
+        margin: 16px 0 2px;
+        opacity: 0; }
       .team__grid__item__position {
         color: #2E3841;
         font-family: "roboto-cond-light", sans-serif;
         font-size: 15px;
         line-height: 18px;
-        text-align: center; }
+        text-align: center;
+        opacity: 0; }
   .team__more-link {
     display: block;
     text-align: center;
