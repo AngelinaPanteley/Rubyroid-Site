@@ -1,9 +1,8 @@
 @keyframes bounceTrain
   from,
-  10%
+  20%
     -webkit-animation-timing-function: linear
     animation-timing-function: linear
-    animation-duration: 1s
 
   75%,
   90%,
@@ -11,8 +10,13 @@
     -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1)
     animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1)
 
-  from,
-  10%
+  from
+    -webkit-transform: translate3d(0, 0, 0)
+    transform: translate3d(0, 0, 0)
+    min-height: 90%
+    height: 90%
+
+  20%
     -webkit-transform: translate3d(0, 0, 0)
     transform: translate3d(0, 0, 0)
     min-height: 100%
@@ -21,8 +25,8 @@
   50%
     -webkit-transform: translate3d(0, -30px, 0)
     transform: translate3d(0, -30px, 0)
-    min-height: calc(100vh - 42rem)
-    height: calc(100vh - 42rem)
+    min-height: calc(70vh - 10rem)
+    height: calc(70vh - 10rem)
 
   75%
     -webkit-transform: translate3d(0, 20px, 0)
@@ -35,5 +39,5 @@
   to
     -webkit-transform: translate3d(0, 0, 0)
     transform: translate3d(0, 0, 0)
-    min-height: calc(100vh - 42rem)
-    height: calc(100vh - 42rem)
+    min-height: calc(70vh - 10rem)
+    height: calc(70vh - 10rem)

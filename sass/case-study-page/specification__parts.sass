@@ -1,0 +1,65 @@
+.specification
+  &--challenge
+    @extend .specification
+
+  &--solution
+    @extend .specification
+    background: $bg-color
+    padding: 80px 0 66px
+
+    +media-md
+      padding: 67px 0 58px
+
+    +media-xs
+      padding: 51px 0 52px
+
+  &--technology
+    @extend .specification
+    padding: 99px 0 72px
+
+    +media-md
+      padding: 76px 0 54px
+
+    +media-xs
+      padding: 61px 0 33px
+
+    &__content
+      @extend .specification__content
+
+      +media-xs
+        display: flex
+        flex-wrap: wrap
+        justify-content: space-around
+        max-width: 450px
+
+
+  &--results
+    @extend .specification
+
+    +media-md
+      padding: 78px 0 145px
+
+    +media-xs
+      padding: 49px 0 17px
+
+    .center-container
+      padding: 0 197px 0 0
+      position: relative
+
+      +media-md
+        padding: 0
+
+    &__content
+      @extend .specification__content
+      width: 550px
+      font-size: 16px
+      padding-top: 0
+
+      +media-md
+        font-size: 14px
+        line-height: 22px
+        width: 560px
+        margin-top: -6px
+
+      +media-xs
+        width: 100%

@@ -1,0 +1,48 @@
+.how-it-looks
+  background: $bg-color
+  padding: 80px 0 100px
+
+  +media-md
+    padding: 64px 0 70px
+
+  +media-xs
+    padding: 51px 0 60px
+
+  &__title
+    @extend .section__title
+    text-transform: none
+    font-size: 32px
+    line-height: 40px
+
+    +media-md
+      font-size: 28px
+      line-height: 35px
+
+  &__slider
+    margin: 51px auto 59px
+    width: 1000px
+
+    +media-md
+      width: 708px
+
+    +media-xs
+      width: calc(100% - 30px)
+      margin: 0 auto
+      margin-top: 30px
+
+    &__inner
+      height: 700px
+      width: 100%
+      overflow: hidden
+      box-shadow: 0 0 50px 0 rgba(0,0,0,0.05), 0 0 14px 0 rgba(0,0,0,0.04)
+
+      +media-md
+        height: 500px
+
+      +media-xs
+        height: 245px
+
+    &__image
+      min-width: 100%
+      min-height: 100%
+

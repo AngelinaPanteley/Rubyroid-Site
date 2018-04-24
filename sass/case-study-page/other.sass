@@ -1,0 +1,95 @@
+.other
+  padding: 80px 0 160px
+  background: $bg-color
+
+  +media-md
+    padding: 70px 0
+
+  +media-xs
+    padding: 52px 0 60px
+
+  &__title
+    color: $font-base-color
+    font-family: $font-title
+    font-size: 36px
+    line-height: 45px
+    text-align: center
+
+    +media-md
+      font-size: 28px
+      line-height: 35px
+
+  &__slider
+    width: 1000px
+    margin: 60px auto 0
+
+    +media-md
+      width: 590px
+      height: 290px
+      margin: 50px auto 0
+
+    +media-xs
+      width: calc(100% - 30px)
+      height: auto
+      margin: 30px auto 0
+
+    &__inner
+      display: flex
+      justify-content: space-between
+      flex-wrap: wrap
+      overflow: hidden
+      max-height: 100%
+
+    &__item
+      @extend .studies__item
+      width: 327px
+      height: 327px
+      padding: 40px 30px 30px 30px
+
+      +media-md
+        height: 290px
+        width: 290px
+        min-width: 290px
+
+      +media-xs
+        width: 100%
+        height: 200px
+
+      &__hidden-container
+        @extend .studies__item__hidden-container
+        min-height: 257px
+        transform: translate(0, 19.3rem)
+
+        +media-md
+          transform: translate(0, 20.3rem)
+
+        +media-xs
+          transform: translate(0, 70px)
+
+      &__title-container
+        @extend .studies__item__title-container
+        min-height: 64px
+
+      &__title
+        @extend .studies__item__title
+        font-size: 26px
+        line-height: 32px
+
+        +media-md
+          font-size: 20px
+          line-height: 28px
+
+        +media-xs
+          font-size: 22px
+          line-height: 30px
+
+      &__description
+        @extend .studies__item__description
+        font-size: 14px
+        line-height: 20px
+
+      &__finance
+        @extend .studies__item__finance
+
+        &__icon
+          @extend .studies__item__finance__icon

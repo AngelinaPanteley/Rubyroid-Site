@@ -4,6 +4,8 @@
       transform: translate(0, 24.3rem)
       transition: all 0.8s ease-in-out
       min-height: 322px
+      display: flex
+      flex-direction: column
 
     &__description
       color: #fff
@@ -12,6 +14,10 @@
       font-weight: 300
       line-height: 2.2rem
       margin: 2.4rem 0 4rem
+      flex-grow: 3
+
+      +media-md
+        display: none
 
     &__tag-list
       display: flex
@@ -34,10 +40,12 @@
       display: flex
       justify-content: space-between
       color: #fff
-      font-family: $font-subtitle
+      font-family: $font-roboto-light
       font-size: 1.4rem
-      font-weight: 300
       line-height: 1.6rem
+
+      +media-md
+        display: none
 
       span:first-child
         font-size: 1.5rem
@@ -54,16 +62,16 @@
 
     &:hover
       &:before
-        opacity: 0.9
-        transition: all 0.4s ease-in-out
+        +media-lg
+          opacity: 0.9
+          transition: all 0.4s ease-in-out
 
       .studies__item__hidden-container
-        transform: translate(0, 0)
-        transition: all 0.8s ease-in-out
+        +media-lg
+          transform: translate(0, 0)
+          transition: all 0.8s ease-in-out
 
       .studies__item__title
-        color: #8DBAED
-        transition: all 0.4s ease-in-out
-
-    +media-md
-      display: none
+        +media-lg
+          color: #8DBAED
+          transition: all 0.4s ease-in-out

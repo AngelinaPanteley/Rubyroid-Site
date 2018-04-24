@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="20px" viewBox="0 0 25 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>EACE9F53-FC90-4C42-B46D-CA9B51DE8E78</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M0,17.5 L25,17.5 L25,20 L0,20 L0,17.5 Z M0,8.75 L25,8.75 L25,11.25 L0,11.25 L0,8.75 Z M0,0 L25,0 L25,2.5 L0,2.5 L0,0 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Menu-/-menu-white-[mobile]" transform="translate(-335.000000, -24.000000)">
+            <g id="menu-[mobile]">
+                <g id="Icons-/-Nav-/-menu" transform="translate(335.000000, 24.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Combined-Shape" fill="#E2E5EA" fill-rule="nonzero" xlink:href="#path-1"></use>
+                    <g id="Colors-/-White" mask="url(#mask-2)" fill="#FFFFFF" fill-rule="evenodd">
+                        <rect id="Rectangle-3" x="0" y="0" width="25" height="20"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

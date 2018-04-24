@@ -1,0 +1,36 @@
+.case-study__slider
+  display: flex
+  justify-content: space-between
+  align-items: center
+  width: 208px
+
+  +media-xs
+    width: 174px
+
+  &__left-nav,
+  &__right-nav
+    width: 26px
+    height: 14px
+    display: inline-block
+    cursor: pointer
+    background-image: url('../images/case-study/left-arrow-white.svg')
+    opacity: 0.6
+    transiton: all .2s
+
+    &:hover
+      opacity: 1
+      transiton: all .2s
+
+  &__right-nav
+    background-image: url('../images/case-study/right-arrow-white.svg')
+
+  &__title
+    color: #FFFFFF
+    font-family: $font-roboto-light
+    font-size: 16px
+    line-height: 19px
+    text-align: center
+
+    +media-xs
+      font-size: 14px
+      line-height: 16px

@@ -26,8 +26,8 @@
         transition: all .3s
 
         .team__grid__item__hover-img
-          transform: translate(0, 0)
-          transition: all 1s
+          transition: all .3s
+          z-index: 2
 
         & + .team__grid__item
           height: 192px
@@ -42,13 +42,17 @@
         img
           min-width: 100%
           min-height: 100%
+          width: 100%
           position: absolute
           top: 0
           left: 0
+          z-index: 1
+
+        .team__grid__item__hover-img
+          z-index: 0
 
       &__hover-img
-        transform: translate(0, -100%)
-        transition: all 1s
+        transition: all .3s
 
       &__name
         color: $font-base-color
