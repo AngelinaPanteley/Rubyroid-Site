@@ -4730,16 +4730,17 @@ html {
       height: 700px;
       width: 100%;
       overflow: hidden;
-      box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.05), 0 0 14px 0 rgba(0, 0, 0, 0.04); }
+      box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.05), 0 0 14px 0 rgba(0, 0, 0, 0.04);
+      background-image: url("../images/case-study/volition-cover.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center; }
       @media (max-width: 1267px) {
         .how-it-looks__slider__inner {
           height: 500px; } }
       @media (max-width: 767px) {
         .how-it-looks__slider__inner {
           height: 245px; } }
-    .how-it-looks__slider__image {
-      min-width: 100%;
-      min-height: 100%; }
 
 .customer {
   padding: 100px 0 186px;
@@ -4779,7 +4780,11 @@ html {
     width: 200px;
     border-radius: 50%;
     overflow: hidden;
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+    background-image: url("../images/case-study/volition-cover.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; }
     @media (max-width: 1267px) {
       .customer__photo {
         height: 160px;
@@ -4789,9 +4794,6 @@ html {
         height: 140px;
         width: 140px;
         margin-bottom: 12px; } }
-    .customer__photo__img {
-      min-width: 100%;
-      min-height: 100%; }
   .customer__name {
     color: #2E3841;
     font-family: "oswald";
