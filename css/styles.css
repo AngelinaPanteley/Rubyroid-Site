@@ -3144,10 +3144,10 @@ html {
     position: relative; }
     @media (max-width: 1267px) {
       .awards__htp {
-        padding: 74px 102px 71px 44px; } }
+        padding: 70px 101px 70px 110px; } }
     @media (max-width: 1024px) {
       .awards__htp {
-        padding: 66px 47px 74px 37px; } }
+        padding: 64px 49px 77px 80px; } }
     @media (max-width: 767px) {
       .awards__htp {
         flex-direction: column-reverse;
@@ -3165,6 +3165,18 @@ html {
       position: absolute;
       top: 94px;
       left: 63px; }
+      @media (max-width: 1267px) {
+        .awards__htp:before {
+          height: 41px;
+          width: 41px;
+          top: 75px;
+          left: 49px; } }
+      @media (max-width: 1024px) {
+        .awards__htp:before {
+          width: 36px;
+          height: 36px;
+          top: 65px;
+          left: 30px; } }
       @media (max-width: 767px) {
         .awards__htp:before {
           display: none; } }
@@ -3174,7 +3186,8 @@ html {
       font-size: 6rem; }
       @media (max-width: 1267px) {
         .awards__htp .section__title, .awards__htp .how-it-looks__title, .awards__htp .customer__title {
-          line-height: 50px; } }
+          line-height: 50px;
+          margin-bottom: 21px; } }
       @media (max-width: 1024px) {
         .awards__htp .section__title, .awards__htp .how-it-looks__title, .awards__htp .customer__title {
           font-size: 42px;
@@ -3198,7 +3211,7 @@ html {
           width: 64%; } }
       @media (max-width: 1024px) {
         .awards__htp__description {
-          width: 71%; } }
+          width: 72%; } }
       @media (max-width: 767px) {
         .awards__htp__description {
           width: 100%; } }
@@ -3206,10 +3219,11 @@ html {
       width: 21.5%; }
       @media (max-width: 1267px) {
         .awards__htp__logo {
-          width: 26%; } }
+          width: 28%; } }
       @media (max-width: 1024px) {
         .awards__htp__logo {
-          width: 23%; } }
+          width: 24%;
+          margin-top: -5px; } }
       @media (max-width: 767px) {
         .awards__htp__logo {
           width: 140px;
@@ -3267,21 +3281,33 @@ html {
         transition: all 0.2s ease-in-out; }
       .awards__item .awards__award-icon.clutch, .awards__item .awards__award-icon.topagency, .awards__item .awards__award-icon.good-firms, .awards__item .awards__award-icon.extract {
         height: 120px; }
+        @media (max-width: 1267px) {
+          .awards__item .awards__award-icon.clutch, .awards__item .awards__award-icon.topagency, .awards__item .awards__award-icon.good-firms, .awards__item .awards__award-icon.extract {
+            height: 98px; } }
         @media (max-width: 767px) {
           .awards__item .awards__award-icon.clutch, .awards__item .awards__award-icon.topagency, .awards__item .awards__award-icon.good-firms, .awards__item .awards__award-icon.extract {
             height: 67%; } }
       .awards__item .awards__award-icon.brug, .awards__item .awards__award-icon.wadline {
         height: 100px; }
+        @media (max-width: 1267px) {
+          .awards__item .awards__award-icon.brug, .awards__item .awards__award-icon.wadline {
+            height: 80px; } }
         @media (max-width: 767px) {
           .awards__item .awards__award-icon.brug, .awards__item .awards__award-icon.wadline {
             height: 56%; } }
       .awards__item .awards__award-icon.europages {
         height: 49px; }
+        @media (max-width: 1267px) {
+          .awards__item .awards__award-icon.europages {
+            height: 34px; } }
         @media (max-width: 767px) {
           .awards__item .awards__award-icon.europages {
             height: 22%; } }
       .awards__item .awards__award-icon.skilled {
         height: 81px; }
+        @media (max-width: 1267px) {
+          .awards__item .awards__award-icon.skilled {
+            height: 70px; } }
         @media (max-width: 767px) {
           .awards__item .awards__award-icon.skilled {
             height: 53%; } }
@@ -3404,11 +3430,38 @@ html {
     display: flex;
     justify-content: space-between;
     margin: 53px 0 60px; }
+    @media (max-width: 1267px) {
+      .team__grid {
+        width: 964px;
+        margin: 53px auto 50px; } }
+    @media (max-width: 1024px) {
+      .team__grid {
+        width: 708px; } }
+    @media (max-width: 767px) {
+      .team__grid {
+        width: 345px;
+        max-width: 100%;
+        margin: 41px auto 40px; } }
     .team__grid__column {
       display: flex;
       flex-direction: column;
       width: 260px;
       height: 900px; }
+      @media (max-width: 1267px) {
+        .team__grid__column {
+          width: 233px;
+          height: 728px; } }
+      @media (max-width: 1024px) {
+        .team__grid__column {
+          width: 169px;
+          height: 526px; } }
+      @media (max-width: 767px) {
+        .team__grid__column {
+          width: 108px;
+          height: 345px; } }
+      @media (max-width: 767px) {
+        .team__grid__column:last-child {
+          display: none; } }
     .team__grid__item {
       width: 100%;
       height: 260px;
@@ -3416,15 +3469,43 @@ html {
       transition: all 0.5s;
       flex-shrink: 0;
       overflow: hidden; }
+      @media (max-width: 1267px) {
+        .team__grid__item {
+          height: 233px;
+          margin-bottom: 10px; } }
+      @media (max-width: 1024px) {
+        .team__grid__item {
+          height: 169px; } }
+      @media (max-width: 767px) {
+        .team__grid__item {
+          height: 108px; } }
       .team__grid__item:hover {
         height: 328px;
         transition: all 0.5s; }
+        @media (max-width: 1267px) {
+          .team__grid__item:hover {
+            height: 314px; } }
+        @media (max-width: 1024px) {
+          .team__grid__item:hover {
+            height: 237px; } }
+        @media (max-width: 767px) {
+          .team__grid__item:hover {
+            height: 148px; } }
         .team__grid__item:hover .team__grid__item__hover-img {
           transition: all 0.4s;
           opacity: 1; }
         .team__grid__item:hover + .team__grid__item {
           height: 192px;
           transition: all 0.5s; }
+          @media (max-width: 1267px) {
+            .team__grid__item:hover + .team__grid__item {
+              height: 151px; } }
+          @media (max-width: 1024px) {
+            .team__grid__item:hover + .team__grid__item {
+              height: 100px; } }
+          @media (max-width: 767px) {
+            .team__grid__item:hover + .team__grid__item {
+              height: 68px; } }
         .team__grid__item:hover .team__grid__item__name,
         .team__grid__item:hover .team__grid__item__position {
           animation-delay: 0.1s; }
@@ -3433,6 +3514,15 @@ html {
         width: 100%;
         height: 260px;
         overflow: hidden; }
+        @media (max-width: 1267px) {
+          .team__grid__item__img {
+            height: 233px; } }
+        @media (max-width: 1024px) {
+          .team__grid__item__img {
+            height: 169px; } }
+        @media (max-width: 767px) {
+          .team__grid__item__img {
+            height: 108px; } }
         .team__grid__item__img img {
           min-width: 100%;
           min-height: 100%;
@@ -3453,6 +3543,18 @@ html {
         text-align: center;
         margin: 16px 0 2px;
         opacity: 0; }
+        @media (max-width: 1267px) {
+          .team__grid__item__name {
+            margin-top: 9px; } }
+        @media (max-width: 1024px) {
+          .team__grid__item__name {
+            font-size: 15px;
+            line-height: 15px;
+            margin: 12px 0 6px; } }
+        @media (max-width: 767px) {
+          .team__grid__item__name {
+            font-size: 12px;
+            margin: 7px 0 4px; } }
       .team__grid__item__position {
         color: #2E3841;
         font-family: "roboto-cond-light", sans-serif;
@@ -3460,6 +3562,13 @@ html {
         line-height: 18px;
         text-align: center;
         opacity: 0; }
+        @media (max-width: 1024px) {
+          .team__grid__item__position {
+            font-size: 13px;
+            line-height: 13px; } }
+        @media (max-width: 767px) {
+          .team__grid__item__position {
+            font-size: 10px; } }
   .team__more-link {
     display: block;
     text-align: center;
@@ -3473,6 +3582,10 @@ html {
     .team__more-link:hover {
       opacity: 1;
       transition: all 0.2s; }
+    @media (max-width: 767px) {
+      .team__more-link {
+        font-size: 14px;
+        line-height: 17px; } }
 
 .additional {
   padding: 10rem 0 14rem;

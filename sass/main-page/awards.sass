@@ -18,10 +18,10 @@
     position: relative
 
     +media-md
-      padding: 74px 102px 71px 44px
+      padding: 70px 101px 70px 110px
 
     +media-sm
-      padding: 66px 47px 74px 37px
+      padding: 64px 49px 77px 80px
 
     +media-xs
       flex-direction: column-reverse
@@ -41,6 +41,18 @@
       top: 94px
       left: 63px
 
+      +media-md
+        height: 41px
+        width: 41px
+        top: 75px
+        left: 49px
+
+      +media-sm
+        width: 36px
+        height: 36px
+        top: 65px
+        left: 30px
+
       +media-xs
         display: none
 
@@ -51,6 +63,7 @@
 
       +media-md
         line-height: 50px
+        margin-bottom: 21px
 
       +media-sm
         font-size: 42px
@@ -75,7 +88,7 @@
         width: 64%
 
       +media-sm
-        width: 71%
+        width: 72%
 
       +media-xs
         width: 100%
@@ -84,10 +97,11 @@
       width: 21.5%
 
       +media-md
-        width: 26%
+        width: 28%
 
       +media-sm
-        width: 23%
+        width: 24%
+        margin-top: -5px
 
       +media-xs
         width: 140px
@@ -160,6 +174,9 @@
       &.extract
         height: 120px
 
+        +media-md
+          height: 98px
+
         +media-xs
           height: 67%
 
@@ -167,17 +184,26 @@
       &.wadline
         height: 100px
 
+        +media-md
+          height: 80px
+
         +media-xs
           height: 56%
 
       &.europages
         height: 49px
 
+        +media-md
+          height: 34px
+
         +media-xs
           height: 22%
 
       &.skilled
         height: 81px
+
+        +media-md
+          height: 70px
 
         +media-xs
           height: 53%
