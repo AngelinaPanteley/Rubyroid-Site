@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="125px" height="99px" viewBox="0 0 125 99" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="50px" height="40px" viewBox="0 0 50 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: sketchtool 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
-    <title>9F8F1683-A1EB-4EE1-AE22-8878169E9167</title>
+    <title>4F7CB2F8-6944-4CE3-9B50-53803FB70299</title>
     <desc>Created with sketchtool.</desc>
     <defs></defs>
-    <g id="Cases" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.119999997">
-        <g id="Volition-[desktop]-:hover" transform="translate(-221.000000, -4603.000000)" fill="#9EC4F0" fill-rule="nonzero">
-            <g id="Hear-from..." transform="translate(0.000000, 4084.000000)">
-                <g id="left-quote-2" transform="translate(283.500000, 568.000000) scale(-1, -1) translate(-283.500000, -568.000000) translate(221.000000, 518.000000)">
-                    <path d="M71.1538462,55.125 L71.1538462,0 L125,0 L125,55.9125 C125,93.7125 90.3846154,98.4375 90.3846154,98.4375 L85.7692308,87.4125 C85.7692308,87.4125 101.153846,85.05 104.230769,72.45 C107.307692,63 101.153846,55.125 101.153846,55.125 L71.1538462,55.125 Z" id="Shape"></path>
-                    <path d="M0,55.125 L0,0 L53.8461538,0 L53.8461538,55.9125 C53.8461538,93.7125 19.2307692,98.4375 19.2307692,98.4375 L14.6153846,87.4125 C14.6153846,87.4125 30,85.05 33.0769231,72.45 C36.1538462,63 30,55.125 30,55.125 L0,55.125 Z" id="Shape"></path>
+    <g id="Cases" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.18">
+        <g id="Volition-[mobile]" transform="translate(-316.000000, -4365.000000)" fill="#9EC4F0" fill-rule="nonzero">
+            <g id="Hear-from..." transform="translate(0.000000, 3729.000000)">
+                <g id="testimonial" transform="translate(10.000000, 390.000000)">
+                    <g id="left-quote-2" transform="translate(306.000000, 246.000000)">
+                        <path d="M28.4615385,22.05 L28.4615385,0 L50,0 L50,22.365 C50,37.485 36.1538462,39.375 36.1538462,39.375 L34.3076923,34.965 C34.3076923,34.965 40.4615385,34.02 41.6923077,28.98 C42.9230769,25.2 40.4615385,22.05 40.4615385,22.05 L28.4615385,22.05 Z" id="Shape"></path>
+                        <path d="M0,22.05 L0,0 L21.5384615,0 L21.5384615,22.365 C21.5384615,37.485 7.69230769,39.375 7.69230769,39.375 L5.84615385,34.965 C5.84615385,34.965 12,34.02 13.2307692,28.98 C14.4615385,25.2 12,22.05 12,22.05 L0,22.05 Z" id="Shape"></path>
+                    </g>
                 </g>
             </g>
         </g>

@@ -2443,11 +2443,13 @@ html {
   margin-bottom: 2rem; }
   @media (max-width: 767px) {
     .section__title, .how-it-looks__title, .customer__title {
-      margin-bottom: 10px; } }
+      margin-bottom: 10px;
+      font-size: 32px;
+      line-height: 36px; } }
 
 .section__subtitle {
   color: #2172D0;
-  font-family: "roboto-cond", sans-serif;
+  font-family: "roboto-cond-light", sans-serif;
   font-size: 2.6rem;
   line-height: 3rem;
   text-align: center;
@@ -2686,7 +2688,7 @@ html {
         align-items: center; } }
     @media (max-width: 767px) {
       .services__list {
-        margin-top: 44px; } }
+        margin-top: 40px; } }
   .services__item {
     width: 45%;
     display: flex;
@@ -2748,7 +2750,7 @@ html {
   background: #F8F9FA; }
   @media (max-width: 767px) {
     .technologies {
-      padding: 50px 0 60px; } }
+      padding: 40px 0 60px; } }
   .technologies__list {
     padding: 60px 0 0;
     display: flex;
@@ -2832,15 +2834,20 @@ html {
         white-space: nowrap; }
         @media (max-width: 1267px) {
           .technologies__item__tools span {
-            margin-right: 5px; } }
+            margin-right: 20px; } }
         .technologies__item__tools span.no-mrg {
           margin-right: 0; }
           @media (max-width: 1267px) {
             .technologies__item__tools span.no-mrg {
-              margin-right: 5px; } }
+              margin-right: 20px; } }
+        .technologies__item__tools span:last-child {
+          margin-right: 0; }
 
 .studies {
   padding: 10rem 0; }
+  @media (max-width: 767px) {
+    .studies {
+      padding-bottom: 60px; } }
   .studies__board {
     display: flex;
     flex-wrap: wrap;
@@ -2850,6 +2857,9 @@ html {
     @media (max-width: 1267px) {
       .studies__board {
         margin-bottom: 80px; } }
+    @media (max-width: 767px) {
+      .studies__board {
+        margin-bottom: 40px; } }
   .studies__item, .studies__item--big, .studies__item--no-margin, .other__slider__item {
     width: 39.3rem;
     height: 39.3rem;
@@ -2868,7 +2878,8 @@ html {
     justify-content: flex-start;
     transition: all 0.4s ease-in-out;
     max-height: 39.3rem;
-    overflow: hidden; }
+    overflow: hidden;
+    background-size: cover; }
     @media (max-width: 1267px) {
       .studies__item, .studies__item--big, .studies__item--no-margin, .other__slider__item {
         width: calc(50% - 5px);
@@ -3065,7 +3076,9 @@ html {
     @media (max-width: 767px) {
       .testimonials__item {
         padding: 26px 20px 20px;
-        height: auto; } }
+        height: auto;
+        width: 100%;
+        box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.05); } }
     .testimonials__item__photo {
       position: absolute;
       bottom: 0;
@@ -3100,8 +3113,8 @@ html {
           margin: 0;
           margin-bottom: 30px;
           padding: 9px 5px 0;
-          background-size: 24px;
-          background-position: 0 0, 100% 77%; } }
+          background: url("../images/left-quote.svg") no-repeat top left;
+          background-size: 24px; } }
     .testimonials__item__name {
       color: #2E3841;
       font-family: "oswald", sans-serif;
@@ -3128,7 +3141,8 @@ html {
 
 .awards {
   padding: 15rem 0 11rem;
-  background-image: url(../images/color.png); }
+  background-image: url(../images/awards/awards-bg-min.jpg);
+  background-size: cover; }
   @media (max-width: 1267px) {
     .awards {
       padding: 120px 0 130px; } }
@@ -3322,7 +3336,7 @@ html {
       background-position: right bottom; } }
   @media (max-width: 767px) {
     .partner {
-      padding: 50px 0 90px;
+      padding: 50px 0 70px;
       background-image: none; } }
   .partner__list {
     display: flex;
@@ -3345,7 +3359,7 @@ html {
         width: 49%;
         margin-left: 0;
         margin-right: 2%;
-        margin-bottom: 23px; }
+        margin-bottom: 40px; }
         .partner__item:nth-child(2n) {
           margin-right: 0; } }
     @media (max-width: 1267px) and (max-width: 767px) {
@@ -4255,10 +4269,11 @@ html {
   background-image: url("../images/case-study/volition-cover.jpg");
   background-size: cover;
   background-position: center;
-  background-color: rgba(46, 56, 65, 0.6); }
-  @media (max-width: 1267px) {
+  background-color: rgba(46, 56, 65, 0.6);
+  height: 700px; }
+  @media (max-width: 767px) {
     .case-study__top-section {
-      min-height: 500px; } }
+      height: 608px; } }
   .case-study__top-section .center-container {
     display: flex;
     flex-direction: column;
@@ -4381,7 +4396,8 @@ html {
     font-family: "roboto-cond-light", sans-serif;
     font-size: 16px;
     line-height: 19px;
-    text-align: center; }
+    text-align: center;
+    opacity: 0.7; }
     @media (max-width: 767px) {
       .case-study__slider__title {
         font-size: 14px;
@@ -4511,7 +4527,7 @@ html {
         margin-top: 10px; } }
     .specification__results__block {
       margin-bottom: 40px;
-      color: rgba(123, 138, 160, 0.5);
+      color: rgba(123, 138, 160, 0.8);
       font-family: "roboto-cond-light", sans-serif;
       font-size: 24px;
       line-height: 24px; }
@@ -4520,7 +4536,7 @@ html {
           font-size: 20px;
           line-height: 24px; } }
     .specification__results__title {
-      color: rgba(123, 138, 160, 0.8);
+      color: rgba(123, 138, 160, 0.5);
       font-family: "fjalla", sans-serif;
       font-size: 40px;
       line-height: 50px; }
@@ -4738,7 +4754,7 @@ html {
         margin: 0 auto;
         margin-top: 30px; } }
     .how-it-looks__slider__inner {
-      height: 700px;
+      height: 640px;
       width: 100%;
       overflow: hidden;
       box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.05), 0 0 14px 0 rgba(0, 0, 0, 0.04);
@@ -4748,10 +4764,10 @@ html {
       background-position: center; }
       @media (max-width: 1267px) {
         .how-it-looks__slider__inner {
-          height: 500px; } }
+          height: 455px; } }
       @media (max-width: 767px) {
         .how-it-looks__slider__inner {
-          height: 245px; } }
+          height: 222px; } }
 
 .customer {
   padding: 100px 0 186px;
@@ -4862,7 +4878,8 @@ html {
         .customer__testimonial__text {
           font-size: 15px;
           line-height: 25px;
-          padding: 25px 25px 30px; } }
+          padding: 25px 25px 30px;
+          box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.1); } }
     .customer__testimonial:before, .customer__testimonial:after {
       content: "";
       display: inline-block;
@@ -4883,6 +4900,7 @@ html {
     .customer__testimonial:before {
       top: -66px;
       left: -101px;
+      transform: rotate(180deg);
       background-image: url(../images/case-study/left-quote-2.svg); }
       @media (max-width: 1267px) {
         .customer__testimonial:before {
@@ -4895,8 +4913,7 @@ html {
     .customer__testimonial:after {
       bottom: -66px;
       right: -101px;
-      background-image: url(../images/case-study/left-quote-2.svg);
-      transform: rotate(180deg); }
+      background-image: url(../images/case-study/left-quote-2.svg); }
       @media (max-width: 1267px) {
         .customer__testimonial:after {
           bottom: -47px;
