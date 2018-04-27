@@ -2392,7 +2392,7 @@ to {
   to {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
-    min-height: calc(70vh - 10rem);
+    min-height: 150px;
     height: calc(70vh - 10rem); } }
 *,
 figure {
@@ -2568,6 +2568,7 @@ html {
 
 .top-section, .case-study__top-section {
   height: 100vh;
+  min-height: 400px;
   background: #EFF4FA;
   display: flex;
   flex-direction: column;
@@ -2604,7 +2605,7 @@ html {
     justify-content: space-around;
     margin-top: 15px;
     max-height: 25vh;
-    min-height: 14.6rem; }
+    min-height: 140px; }
   .top-section__title {
     color: #2E3841;
     font-family: "fjalla", sans-serif;
@@ -3848,6 +3849,16 @@ html {
   @media (max-width: 1024px) {
     .contact-us {
       padding-bottom: 0; } }
+  .contact-us a {
+    color: #8DBAED;
+    font-family: "roboto-cond-light", sans-serif;
+    font-size: 2.4rem;
+    font-weight: 300;
+    line-height: 2.8rem;
+    text-decoration: none; }
+    @media (max-width: 1024px) {
+      .contact-us a {
+        text-decoration: underline; } }
   .contact-us .center-container {
     display: flex; }
     @media (max-width: 1024px) {
