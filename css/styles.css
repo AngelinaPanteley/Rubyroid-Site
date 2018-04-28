@@ -2777,9 +2777,6 @@ html {
       @media (max-width: 767px) {
         .services__item__img {
           width: 40px; } }
-    .services__item:hover .services__item__img {
-      opacity: 1;
-      transition: opacity 0.2s; }
 
 .technologies {
   padding: 10rem 0;
@@ -2958,7 +2955,7 @@ html {
       position: absolute;
       left: 0;
       top: 0;
-      transition: all 0.2s;
+      transition: all 0.3s;
       z-index: 0; }
     .studies__item__title, .other__slider__item__title {
       color: #fff;
@@ -2966,7 +2963,7 @@ html {
       font-size: 3.2rem;
       line-height: 4rem;
       text-transform: uppercase;
-      transition: all 0.4s ease-in-out; }
+      transition: all 0.3s ease-in-out; }
       .studies__item__title-container, .other__slider__item__title-container {
         min-height: 120px;
         display: flex;
@@ -3157,7 +3154,7 @@ html {
   -o-filter: blur(2px);
   -ms-filter: blur(2px);
   filter: blur(2px);
-  transition: all 0.2s; }
+  transition: all 0.3s; }
 
 .testimonials, .testimonials--responsive {
   background-color: #F8F9FA;
@@ -4016,10 +4013,22 @@ html {
     font-size: 2.4rem;
     font-weight: 300;
     line-height: 2.8rem;
-    text-decoration: none; }
-    @media (max-width: 1024px) {
-      .contact-us a {
-        text-decoration: underline; } }
+    text-decoration: underline;
+    display: inline-block;
+    opacity: 0.6;
+    z-index: 2;
+    position: relative; }
+    .contact-us a:hover {
+      opacity: 1;
+      cursor: pointer; }
+    .contact-us a + p {
+      margin-top: -28px; }
+      @media (max-width: 1267px) {
+        .contact-us a + p {
+          margin-top: -23px; } }
+      @media (max-width: 767px) {
+        .contact-us a + p {
+          margin-top: -18px; } }
   .contact-us .center-container {
     display: flex; }
     @media (max-width: 1024px) {

@@ -19,10 +19,24 @@
     font-size: 2.4rem
     font-weight: 300
     line-height: 2.8rem
-    text-decoration: none
+    text-decoration: underline
+    display: inline-block
+    opacity: 0.6
+    z-index: 2
+    position: relative
 
-    +media-sm
-      text-decoration: underline
+    &:hover
+      opacity: 1
+      cursor: pointer
+
+    & + p
+      margin-top: -28px
+
+      +media-md
+        margin-top: -23px
+
+      +media-xs
+        margin-top: -18px
 
   .center-container
     display: flex
