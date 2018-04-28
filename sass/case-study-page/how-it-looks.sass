@@ -17,6 +17,7 @@
     +media-md
       font-size: 28px
       line-height: 35px
+      margin-bottom: 30px
 
   &__slider
     margin: 51px auto 59px
@@ -24,6 +25,7 @@
 
     +media-md
       width: 708px
+      margin: 20px auto 59px
 
     +media-xs
       width: calc(100% - 30px)
@@ -46,3 +48,33 @@
       +media-xs
         height: 222px
 
+  &__mobile-swipe
+    margin: 0 auto
+    width: 80px
+    display: none
+
+    +media-md
+      display: block
+
+    &__arrow
+      display: inline-block
+      height: 7px
+      width: 13px
+      opacity: 0.6
+      background-size: contain
+      background-repeat: no-repeat
+
+      &--left
+        @extend .how-it-looks__mobile-swipe__arrow
+        background-image: url('../images/case-study/left-grey.svg')
+
+      &--right
+        @extend .how-it-looks__mobile-swipe__arrow
+        background-image: url('../images/case-study/right-grey.svg')
+
+    &__title
+      color: rgba(128,148,179,0.7)
+      font-family: $font-roboto-light
+      font-size: 11px
+      line-height: 13px
+      margin: 0 12px

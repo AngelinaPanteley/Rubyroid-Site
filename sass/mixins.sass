@@ -10,6 +10,10 @@
   @media (max-width: $max)
     @content
 
+@mixin media-xxs //extra small mobile
+  @include media-width-below(450px)
+    @content
+
 @mixin media-xs //mobile
   @include media-width-below($mobile)
     @content

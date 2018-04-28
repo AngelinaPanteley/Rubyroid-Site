@@ -8,14 +8,10 @@
     margin: 53px 0 60px
 
     +media-md
-      width: 964px
+      width: 100%
       margin: 53px auto 50px
 
-    +media-sm
-      width: 708px
-
     +media-xs
-      width: 345px
       max-width: 100%
       margin: 41px auto 40px
 
@@ -26,19 +22,21 @@
       height: 900px
 
       +media-md
-        width: 233px
-        height: 728px
-
-      +media-sm
-        width: 169px
-        height: 526px
+        width: calc((100% - 30px)/4)
+        height: calc(((100vw - 105px)/4)*3 + 20px)
 
       +media-xs
-        width: 108px
-        height: 345px
+        width: calc((100% - 20px)/3)
+        height: calc((100vw - 95px) + 20px)
 
-      &:last-child
-        +media-xs
+        &:last-child
+          display: none
+
+      +media-xxs
+        width: calc((100% - 10px)/2)
+        height: calc(((100vw - 85px)/2)*3 + 20px)
+
+        &:nth-child(3)
           display: none
 
     &__item
@@ -50,27 +48,27 @@
       overflow: hidden
 
       +media-md
-        height: 233px
+        height: calc((100vw - 105px)/4)
         margin-bottom: 10px
 
-      +media-sm
-        height: 169px
-
       +media-xs
-        height: 108px
+        height: calc((100vw - 95px)/3)
+
+      +media-xxs
+        height: calc((100vw - 85px)/2)
 
       &:hover
         height: 328px
         transition: all .5s
 
         +media-md
-          height: 314px
-
-        +media-sm
-          height: 237px
+          height: calc((100vw - 105px)/4*1.23)
 
         +media-xs
-          height: 148px
+          height: calc((100vw - 95px)/3*1.35)
+
+        +media-xxs
+          height: calc((100vw - 85px)/2*1.35)
 
         .team__grid__item__hover-img
           transition: all .4s
@@ -81,13 +79,13 @@
           transition: all .5s
 
           +media-md
-            height: 151px
-
-          +media-sm
-            height: 100px
+            height: calc((100vw - 105px)/4*0.77)
 
           +media-xs
-            height: 68px
+            height: calc((100vw - 95px)/3*0.65)
+
+          +media-xxs
+            height: calc((100vw - 85px)/2*0.65)
 
         .team__grid__item__name,
         .team__grid__item__position
@@ -102,13 +100,13 @@
         overflow: hidden
 
         +media-md
-          height: 233px
-
-        +media-sm
-          height: 169px
+          height: calc((100vw - 105px)/4)
 
         +media-xs
-          height: 108px
+          height: calc((100vw - 95px)/3)
+
+        +media-xxs
+          height: calc((100vw - 85px)/2)
 
         img
           min-width: 100%

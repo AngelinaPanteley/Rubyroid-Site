@@ -44,7 +44,6 @@
       @extend .studies__item
       width: 327px
       height: 327px
-      padding: 40px 30px 30px 30px
 
       +media-md
         height: 290px
@@ -53,22 +52,36 @@
 
       +media-xs
         width: 100%
-        height: 200px
+        height: 260px
+        min-width: auto
+
+      &__background
+        @extend .studies__item__background
 
       &__hidden-container
         @extend .studies__item__hidden-container
-        min-height: 257px
-        transform: translate(0, 19.3rem)
+        min-height: 180px
 
         +media-md
-          transform: translate(0, 20.3rem)
+          min-height: 170px
 
         +media-xs
-          transform: translate(0, 70px)
+          min-height: 140px
 
       &__title-container
         @extend .studies__item__title-container
-        min-height: 64px
+        min-height: 100px
+        transform: translate(0, 199px)
+
+        +media-md
+          min-height: 83px
+          transform: translate(0, 174px)
+          padding-top: 30px
+
+        +media-xs
+          min-height: 86px
+          transform: translate(0, 150px)
+          padding-top: 24px
 
       &__title
         @extend .studies__item__title
@@ -87,6 +100,7 @@
         @extend .studies__item__description
         font-size: 14px
         line-height: 20px
+        margin: 10px 0 0
 
       &__finance
         @extend .studies__item__finance
