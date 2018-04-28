@@ -8,15 +8,15 @@
  *
  * Copyright (c) 2018 Daniel Eden
  */
-.animated, .top-section__animate, .studies__item:hover .studies__item__description, .studies__item--big:hover .studies__item__description, .studies__item--no-margin:hover .studies__item__description, .other__slider__item:hover .studies__item__description, .studies__item:hover .other__slider__item__description, .studies__item--big:hover .other__slider__item__description, .studies__item--no-margin:hover .other__slider__item__description, .other__slider__item:hover .other__slider__item__description, .studies__item:hover .studies__item__tag-list, .studies__item--big:hover .studies__item__tag-list, .studies__item--no-margin:hover .studies__item__tag-list, .other__slider__item:hover .studies__item__tag-list, .team__grid__item:hover .team__grid__item__name,
-.team__grid__item:hover .team__grid__item__position {
+.animated, .top-section__animate, .technologies__item, .studies__item:hover .studies__item__description, .studies__item--big:hover .studies__item__description, .studies__item--no-margin:hover .studies__item__description, .other__slider__item:hover .studies__item__description, .studies__item:hover .other__slider__item__description, .studies__item--big:hover .other__slider__item__description, .studies__item--no-margin:hover .other__slider__item__description, .other__slider__item:hover .other__slider__item__description, .studies__item:hover .studies__item__tag-list, .studies__item--big:hover .studies__item__tag-list, .studies__item--no-margin:hover .studies__item__tag-list, .other__slider__item:hover .studies__item__tag-list, .team__grid__item:hover .team__grid__item__name,
+.team__grid__item:hover .team__grid__item__position, .additional__button, .additional__button--mobile, .additional__blog, .additional__news {
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both; }
 
-.animated.infinite, .infinite.top-section__animate, .studies__item:hover .infinite.studies__item__description, .studies__item--big:hover .infinite.studies__item__description, .studies__item--no-margin:hover .infinite.studies__item__description, .other__slider__item:hover .infinite.studies__item__description, .studies__item:hover .infinite.other__slider__item__description, .studies__item--big:hover .infinite.other__slider__item__description, .studies__item--no-margin:hover .infinite.other__slider__item__description, .other__slider__item:hover .infinite.other__slider__item__description, .studies__item:hover .infinite.studies__item__tag-list, .studies__item--big:hover .infinite.studies__item__tag-list, .studies__item--no-margin:hover .infinite.studies__item__tag-list, .other__slider__item:hover .infinite.studies__item__tag-list, .team__grid__item:hover .infinite.team__grid__item__name,
-.team__grid__item:hover .infinite.team__grid__item__position {
+.animated.infinite, .infinite.top-section__animate, .infinite.technologies__item, .studies__item:hover .infinite.studies__item__description, .studies__item--big:hover .infinite.studies__item__description, .studies__item--no-margin:hover .infinite.studies__item__description, .other__slider__item:hover .infinite.studies__item__description, .studies__item:hover .infinite.other__slider__item__description, .studies__item--big:hover .infinite.other__slider__item__description, .studies__item--no-margin:hover .infinite.other__slider__item__description, .other__slider__item:hover .infinite.other__slider__item__description, .studies__item:hover .infinite.studies__item__tag-list, .studies__item--big:hover .infinite.studies__item__tag-list, .studies__item--no-margin:hover .infinite.studies__item__tag-list, .other__slider__item:hover .infinite.studies__item__tag-list, .team__grid__item:hover .infinite.team__grid__item__name,
+.team__grid__item:hover .infinite.team__grid__item__position, .infinite.additional__button, .infinite.additional__button--mobile, .infinite.additional__blog, .infinite.additional__news {
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite; }
 
@@ -876,8 +876,8 @@ to {
     opacity: 0; }
   to {
     opacity: 1; } }
-.fadeIn, .studies__item:hover .studies__item__description, .studies__item--big:hover .studies__item__description, .studies__item--no-margin:hover .studies__item__description, .other__slider__item:hover .studies__item__description, .studies__item:hover .other__slider__item__description, .studies__item--big:hover .other__slider__item__description, .studies__item--no-margin:hover .other__slider__item__description, .other__slider__item:hover .other__slider__item__description, .studies__item:hover .studies__item__tag-list, .studies__item--big:hover .studies__item__tag-list, .studies__item--no-margin:hover .studies__item__tag-list, .other__slider__item:hover .studies__item__tag-list, .team__grid__item:hover .team__grid__item__name,
-.team__grid__item:hover .team__grid__item__position {
+.fadeIn, .technologies__item, .studies__item:hover .studies__item__description, .studies__item--big:hover .studies__item__description, .studies__item--no-margin:hover .studies__item__description, .other__slider__item:hover .studies__item__description, .studies__item:hover .other__slider__item__description, .studies__item--big:hover .other__slider__item__description, .studies__item--no-margin:hover .other__slider__item__description, .other__slider__item:hover .other__slider__item__description, .studies__item:hover .studies__item__tag-list, .studies__item--big:hover .studies__item__tag-list, .studies__item--no-margin:hover .studies__item__tag-list, .other__slider__item:hover .studies__item__tag-list, .team__grid__item:hover .team__grid__item__name,
+.team__grid__item:hover .team__grid__item__position, .additional__button, .additional__button--mobile, .additional__blog, .additional__news {
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn; }
 
@@ -1267,8 +1267,8 @@ to {
     transform: perspective(400px);
     -webkit-animation-timing-function: ease-in;
     animation-timing-function: ease-in; } }
-.animated.flip, .flip.top-section__animate, .studies__item:hover .flip.studies__item__description, .studies__item--big:hover .flip.studies__item__description, .studies__item--no-margin:hover .flip.studies__item__description, .other__slider__item:hover .flip.studies__item__description, .studies__item:hover .flip.other__slider__item__description, .studies__item--big:hover .flip.other__slider__item__description, .studies__item--no-margin:hover .flip.other__slider__item__description, .other__slider__item:hover .flip.other__slider__item__description, .studies__item:hover .flip.studies__item__tag-list, .studies__item--big:hover .flip.studies__item__tag-list, .studies__item--no-margin:hover .flip.studies__item__tag-list, .other__slider__item:hover .flip.studies__item__tag-list, .team__grid__item:hover .flip.team__grid__item__name,
-.team__grid__item:hover .flip.team__grid__item__position {
+.animated.flip, .flip.top-section__animate, .flip.technologies__item, .studies__item:hover .flip.studies__item__description, .studies__item--big:hover .flip.studies__item__description, .studies__item--no-margin:hover .flip.studies__item__description, .other__slider__item:hover .flip.studies__item__description, .studies__item:hover .flip.other__slider__item__description, .studies__item--big:hover .flip.other__slider__item__description, .studies__item--no-margin:hover .flip.other__slider__item__description, .other__slider__item:hover .flip.other__slider__item__description, .studies__item:hover .flip.studies__item__tag-list, .studies__item--big:hover .flip.studies__item__tag-list, .studies__item--no-margin:hover .flip.studies__item__tag-list, .other__slider__item:hover .flip.studies__item__tag-list, .team__grid__item:hover .flip.team__grid__item__name,
+.team__grid__item:hover .flip.team__grid__item__position, .flip.additional__button, .flip.additional__button--mobile, .flip.additional__blog, .flip.additional__news {
   -webkit-backface-visibility: visible;
   backface-visibility: visible;
   -webkit-animation-name: flip;
@@ -2394,6 +2394,16 @@ to {
     transform: translate3d(0, 0, 0);
     min-height: 150px;
     height: calc(70vh - 10rem); } }
+@keyframes serviceAnimate {
+  from {
+    transform: translate(2000px, 0); }
+  to {
+    transform: translate(0, 0); } }
+@keyframes awardsAnimate {
+  from {
+    transform: translate(0, 1000px); }
+  to {
+    transform: translate(0, 0); } }
 *,
 figure {
   margin: 0;
@@ -2676,7 +2686,9 @@ html {
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-top: 8.5rem; }
+    margin-top: 8.5rem;
+    overflow: hidden;
+    padding-top: 5px; }
     @media (max-width: 1267px) {
       .services__list {
         margin-top: 56px;
@@ -2694,7 +2706,10 @@ html {
     display: flex;
     margin-bottom: 5.4rem;
     position: relative;
-    padding-left: 11rem; }
+    padding-left: 11rem;
+    animation: serviceAnimate 0.5s linear;
+    animation-fill-mode: forwards;
+    transform: translate(2000px, 0); }
     @media (max-width: 1267px) {
       .services__item {
         margin-bottom: 31px;
@@ -2707,6 +2722,16 @@ html {
       .services__item {
         width: 100%;
         padding-left: 56px; } }
+    .services__item:nth-child(2) {
+      animation-delay: 0.1s; }
+    .services__item:nth-child(3) {
+      animation-delay: 0.2s; }
+    .services__item:nth-child(4) {
+      animation-delay: 0.3s; }
+    .services__item:nth-child(5) {
+      animation-delay: 0.4s; }
+    .services__item:nth-child(6) {
+      animation-delay: 0.5s; }
     .services__item__title {
       color: #2E3841;
       font-family: "fjalla", sans-serif;
@@ -2763,7 +2788,9 @@ html {
     border-radius: 3px;
     background-color: #FFFFFF;
     padding: 44px 40px 55px;
-    margin-bottom: 22px; }
+    margin-bottom: 22px;
+    opacity: 0;
+    animation-fill-mode: forwards; }
     @media (max-width: 1267px) {
       .technologies__item {
         height: auto;
@@ -2780,6 +2807,16 @@ html {
         padding-bottom: 30px;
         height: auto;
         min-height: auto; } }
+    .technologies__item:nth-child(2) {
+      animation-delay: 0.2s; }
+    .technologies__item:nth-child(3) {
+      animation-delay: 0.4s; }
+    .technologies__item:nth-child(4) {
+      animation-delay: 0.6s; }
+    .technologies__item:nth-child(5) {
+      animation-delay: 0.8s; }
+    .technologies__item:nth-child(6) {
+      animation-delay: 1s; }
     .technologies__item__icon {
       margin-bottom: 24px; }
       @media (max-width: 1267px) {
@@ -3336,7 +3373,10 @@ html {
     justify-content: center;
     background: #fff;
     transition: all 0.2s;
-    position: relative; }
+    position: relative;
+    animation: awardsAnimate 0.4s linear;
+    animation-fill-mode: forwards;
+    transform: translate(0, 1000px); }
     @media (max-width: 1267px) {
       .awards__item {
         width: calc((100% - 30px)/4);
@@ -3351,6 +3391,20 @@ html {
         height: 103px;
         margin: 0 5px 10px;
         max-width: 160px; } }
+    .awards__item:nth-child(2) {
+      animation-delay: 0.1s; }
+    .awards__item:nth-child(3) {
+      animation-delay: 0.2s; }
+    .awards__item:nth-child(4) {
+      animation-delay: 0.3s; }
+    .awards__item:nth-child(5) {
+      animation-delay: 0.4s; }
+    .awards__item:nth-child(6) {
+      animation-delay: 0.5s; }
+    .awards__item:nth-child(7) {
+      animation-delay: 0.6s; }
+    .awards__item:nth-child(8) {
+      animation-delay: 0.7s; }
     .awards__item:hover {
       transition: all 0.2s; }
       .awards__item:hover .awards__award-icon {
@@ -3711,7 +3765,9 @@ html {
     outline: none;
     text-transform: uppercase;
     cursor: pointer;
-    margin-top: 58px; }
+    margin-top: 58px;
+    opacity: 0;
+    animation-fill-mode: forwards; }
     .additional__button:hover, .additional__button--mobile:hover {
       background: #349353;
       transition: all 0.2s; }
@@ -3726,7 +3782,9 @@ html {
   .additional__blog {
     display: flex;
     flex-direction: column;
-    width: 45%; }
+    width: 45%;
+    opacity: 0;
+    animation-fill-mode: forwards; }
     @media (max-width: 1267px) {
       .additional__blog {
         width: 47%; } }
@@ -3814,7 +3872,10 @@ html {
   display: flex;
   flex-direction: column;
   width: 45%;
-  position: relative; }
+  position: relative;
+  opacity: 0;
+  animation-fill-mode: forwards;
+  animation-delay: 0.4s; }
   @media (max-width: 1267px) {
     .additional__news {
       width: 47%; } }
@@ -3823,6 +3884,8 @@ html {
       width: 100%;
       padding-top: 70px;
       align-items: center; } }
+  .additional__news .additional__button, .additional__news .additional__button--mobile {
+    animation-delay: 0.4s; }
   @media (max-width: 767px) {
     .additional__news:before {
       content: "";

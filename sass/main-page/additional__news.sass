@@ -3,6 +3,11 @@
   flex-direction: column
   width: 45%
   position: relative
+  opacity: 0
+  animation-fill-mode: forwards
+  @extend .animated
+  @extend .fadeIn
+  animation-delay: .4s
 
   +media-md
     width: 47%
@@ -11,6 +16,9 @@
     width: 100%
     padding-top: 70px
     align-items: center
+
+  .additional__button
+    animation-delay: .4s
 
   &:before
     +media-xs

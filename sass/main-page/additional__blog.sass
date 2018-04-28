@@ -26,6 +26,10 @@
   &__button
     +primary-btn(160px, 50px, 20px, 6px)
     margin-top: 58px
+    opacity: 0
+    animation-fill-mode: forwards
+    @extend .animated
+    @extend .fadeIn
 
     +media-xs
       display: none
@@ -41,6 +45,10 @@
     display: flex
     flex-direction: column
     width: 45%
+    opacity: 0
+    animation-fill-mode: forwards
+    @extend .animated
+    @extend .fadeIn
 
     +media-md
       width: 47%

@@ -16,6 +16,8 @@
     justify-content: space-between
     flex-wrap: wrap
     margin-top: 8.5rem
+    overflow: hidden
+    padding-top: 5px
 
     +media-md
       margin-top: 56px
@@ -35,6 +37,9 @@
     margin-bottom: 5.4rem
     position: relative
     padding-left: 11rem
+    animation: serviceAnimate 0.5s linear
+    animation-fill-mode: forwards
+    transform: translate(2000px, 0)
 
     +media-md
       margin-bottom: 31px
@@ -47,6 +52,21 @@
     +media-xs
       width: 100%
       padding-left: 56px
+
+    &:nth-child(2)
+      animation-delay: .1s
+
+    &:nth-child(3)
+      animation-delay: .2s
+
+    &:nth-child(4)
+      animation-delay: .3s
+
+    &:nth-child(5)
+      animation-delay: .4s
+
+    &:nth-child(6)
+      animation-delay: .5s
 
     &__title
       color: $font-base-color
