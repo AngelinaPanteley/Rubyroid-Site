@@ -2396,14 +2396,24 @@ to {
     height: calc(70vh - 10rem); } }
 @keyframes serviceAnimate {
   from {
-    transform: translate(2000px, 0); }
+    transform: translate(2000px, 0);
+    opacity: 0; }
+  50% {
+    opacity: 0.2;
+    transform: translate(0, 0); }
   to {
+    opacity: 1;
     transform: translate(0, 0); } }
 @keyframes awardsAnimate {
   from {
-    transform: translate(0, 1000px); }
+    transform: translate(0, 1000px);
+    opacity: 0; }
+  50% {
+    opacity: 0.2;
+    transform: translate(0, 0); }
   to {
-    transform: translate(0, 0); } }
+    transform: translate(0, 0);
+    opacity: 1; } }
 *,
 figure {
   margin: 0;
@@ -2709,7 +2719,8 @@ html {
     padding-left: 11rem;
     animation: serviceAnimate 0.5s linear;
     animation-fill-mode: forwards;
-    transform: translate(2000px, 0); }
+    transform: translate(2000px, 0);
+    opacity: 0; }
     @media (max-width: 1267px) {
       .services__item {
         margin-bottom: 31px;
@@ -3376,7 +3387,8 @@ html {
     position: relative;
     animation: awardsAnimate 0.4s linear;
     animation-fill-mode: forwards;
-    transform: translate(0, 1000px); }
+    transform: translate(0, 1000px);
+    opacity: 0; }
     @media (max-width: 1267px) {
       .awards__item {
         width: calc((100% - 30px)/4);
